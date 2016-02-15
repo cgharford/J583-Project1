@@ -1,14 +1,39 @@
-div.wrapper {
+body {
+    font-size: 12px;
+    background-color: #ddd;
+}
+
+p {
+    font-size: 12px;
+}
+
+#header-title{
+    color: black;
     text-align: center;
 }
 
-input[type="text"] {
-     position: relative;
-     display: block;
-     margin : 0 auto;
+.tab {
+    padding: .5em 1em 0em 1em;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    font-size: 20px;
 }
 
-img {
-    width: 30px;
-    height: 30px;
+.active-tab {
+    background-color: white;
+    border: solid white;
+}
+
+.inactive-tab {
+    background-color: #eee;
+    border: solid #eee;
+}
+
+
+.content {
+    background-color: white;
+    padding: .5em 1em;
+    border-top-right-radius: .5em;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
 }
