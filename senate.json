@@ -1,0 +1,2823 @@
+[
+	{
+		"State": "Alabama",
+        "id": 1,
+		"currentSenator": "Richard Shelby",
+        "party":"Republican",
+        "gender": "M",
+		"contested": true,
+		"candidates":
+			[
+				{
+                    "name": "Richard Shelby",
+                    "party":"Republican",
+                    "bio": "Born in Birmingham, Alabama, Richard Shelby attended the University of Alabama and worked as a prosecuter until the beginning his politial career. He has been serving in the Alabama State Senate, US House, and Senate since 1970. Interestingly, he swicthed his party affilication from Democratic to Republican in 1994.",
+                    "gender": "M",
+                    "image": "img/candidates/Richard-Shelby.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposed to illegal immigration and pushes stronger law enforcement",
+                                "point2": "Against the Affordable Care Act and wishes to preserve the old heath care system",
+                                "point3": "Advocate of the Pro-life movement and supports policies to protect unborn"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.shelbyforsenate.com/",
+                                "url2": "https://ballotpedia.org/Richard_Shelby"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Marcus Bowman",
+                    "party":"Republican",
+                    "bio": "Born and raised in Elgin, Illinois, 42 year-old Marcus Bowman resides in Daphne, Alabama. He attended Iowa State University and has lead a small business owner and has experience with legal matters in Washington, D.C. He was raised with Christian and conservative values and those opinions guide his political decisions. ",
+                    "gender": "M",
+                    "image": "img/candidates/Richard-Shelby.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates state level decisions on marriage and abortion",
+                                "point2": "Committed to only serving one term to ensure personal motivation",
+                                "point3": "Seeks to eliminate perks for members of congress"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.marcusbowman2016.com/",
+                                "url2": "https://ballotpedia.org/Marcus_Bowman"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "John Martin",
+                    "party":"Republican",
+                    "bio": "Born in Mississippi, John Martin boasts of a 40 year military career. He has served as an army pilot, army civilian, and contractor. He seeks to represent Alabama's conservative values as Senator.",
+                    "gender": "M",
+                    "image": "img/candidates/John-Martin.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports improving treatment of veterans",
+                                "point2": "Believes that environmental legislation should be a state, not federal issue",
+                                "point3": "Opposed to the Common Core curriculum and seeks to improve educational system"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.johnmartin2016.com/",
+                                "url2": "http://www.al.com/news/index.ssf/2016/02/who_is_john_martin_meet_the_fo.html"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Jonathan Mcconnell",
+                    "party":"Republican",
+                    "bio": "After having grown up in Mobile, Alabama, Jonathan Mcconnell served in the US Marine Corps. He then pursused his law degree at the University of Alabama. After obtaining his degree, he founded a successful maritime security company.",
+                    "gender": "M",
+                    "image": "img/candidates/Jonathan-Mcconnell.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposed to gun control and dedicated to upholding the 2nd ammendment",
+                                "point2": "Supports entrepreneurs and small businesses",
+                                "point3": "Promotes free international trade"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.mcconnell2016.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Shadrack McGill",
+                    "party":"Republican",
+                    "bio": "McGill attended North Alabama Community College and is has owned several businesses. He started his political served in the Alabama State Senate for 4 years. He now resides with his wife and children in Scottsboro and works as the operator of Hydraulic Seals and Service.",
+                    "gender": "M",
+                    "image": "img/candidates/Shadrack-McGill.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Seeks to improve economy and unemployment rate",
+                                "point2": "Supports local funding of educational systems",
+                                "point3": "Dedicated to moral reform of the political system. "
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://ballotpedia.org/Shadrack_McGill"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Charles Nana",
+                    "party":"Democratic",
+                    "bio": "Nana was born in Cameroon, South Africa, but migrated to the United States later in life. He has degrees from Howard University, Catholic University of America, and the University of Chicago. Since he has become a successful businessman.",
+                    "gender": "M",
+                    "image": "img/candidates/Charles-Nana.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes international trade practices that harm American business",
+                                "point2": "Intends to battle the issue of prescription drug overdose",
+                                "point3": "Dedicated to fight the curruption in the university administrative system"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.nanaforsenate.com/",
+                                "url2": "https://ballotpedia.org/Charles_Nana"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Ron Crumpton",
+                    "party":"Democratic",
+                    "bio": "Crumpton originally started his career in landscaping, but decided to attend the University of Alabama at Birmingham when an injury prevented him from continuing in his current line of work. Since then, he has worked on legislation regarding patient care and the use of marijuana for medical and recreational purposes.",
+                    "gender": "M",
+                    "image": "img/candidates/Ron-Crumpton.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes gun control",
+                                "point2": "Supports farmers who want to cultivate hemp",
+                                "point3": "Upholds Roe v. Wade ruling"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://crumptonforalabama.com/",
+                                "url2": "https://ballotpedia.org/Ron_Crumpton"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Alabama",
+        "id": 2,
+		"currentSenator": "Jeff Sessions",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Alaska",
+        "id": 3,
+		"currentSenator": "Lisa Murkowski",
+        "party":"Republican",
+		"contested": true,
+        "gender": "F",
+		"candidates":
+			[
+				{
+                    "name": "Lisa Murkowski",
+                    "party":"Republican",
+                    "bio": "Born in Ketchikan, Alaska, Murkowski attended Georgetown University and Willamette College of Law. After receiving her degree she worked as an attorney for 10 years. She then served in the House of Representatives and moved to the Senate in 2002. ",
+                    "gender": "F",
+                    "image": "img/candidates/Lisa-Murkowski.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Involved in legislation aimed at combatting the war on women",
+                                "point2": "Opposes providing opportunities for illegal immigrants to become citizens",
+                                "point3": "Advocates the requirement for hiring women and minorities"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://en.wikipedia.org/wiki/Lisa_Murkowski",
+                                "url2": "https://ballotpedia.org/Lisa_Murkowski"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Thomas Lamb",
+                    "party":"Republican",
+                    "bio": "Lamb resides in Anchorage, Alaska. He maintains a blog where he writes regularly and passionately about political issues that are significant to him.",
+                    "gender": "M",
+                    "image": "img/candidates/Thomas-Lamb.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes Sarah Palin and her supporters",
+                                "point2": "Offended at Ellen DeGeneres's silence at a picture of a child stepping on a dog's back",
+                                "point3": "Rejects proposal to build gasline in Alaska"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://thomasalamb.blogspot.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Cean Stevens",
+                    "party":"Libertarian",
+                    "bio": "Lamb was born in San Bernardino, CA and is a business owner. She ran for House in 2012, but was unsuccessful. She resides in Anchorage, Alaska with her family. ",
+                    "gender": "F",
+                    "image": "img/candidates/Cean-Stevens.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to cutting state spending",
+                                "point2": "Supports distribution of property to Alaskans",
+                                "point3": "Advocates free market solutions"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://ballotpedia.org/Cean_Stevens",
+                                "url2": "http://www.elections.alaska.gov/doc/oep/2014/cs/Cean_Stevens_HD19.pdf"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Alaska",
+        "id": 4,
+		"currentSenator": "Dan Sullivan",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Arizona",
+        "id": 5,
+		"currentSenator": "John McCain",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Lennie Clark",
+                    "party":"Democratic",
+                    "bio": "Clark served in the army and the Arizona National Guard. Now, he works as a music teacher and is a progressive activist.",
+                    "gender": "M",
+                    "image": "img/candidates/Lennie-Clark.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports free tuition in colleges",
+                                "point2": "Advocates paid family and medical leave for employees",
+                                "point3": "Promotes nationwide legalization of marijuana"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.lennie2016.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Ann Kirkpatrick",
+                    "party":"Democratic",
+                    "bio": "Kirkpatrick grew up on a family ranch in the Eastern Arizona mountains. She attended the University of Arizona and then began a career in law. In 2004, she served in the House of Representatives and then in Congress.",
+                    "gender": "F",
+                    "image": "img/candidates/Ann-Kirkpatrick.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates finding alternative energy sources and preserving the environment",
+                                "point2": "Dedicated to reviving the working middle class",
+                                "point3": "Promises to fight to protect the social security and medicare programs"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.kirkpatrickforsenate.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "John McCain",
+                    "party":"Republican",
+                    "bio": "McCain served in the US Navy from 1954 to 1981. He began his political career in 1982 when he joined the House of Representatives and switched to the Senate in 1986. The current senator is best known for his candidicy in the 2008 presidential election.",
+                    "gender": "M",
+                    "image": "img/candidates/John-McCain.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes gun control and fights for gun rights",
+                                "point2": "Supports Native American rights",
+                                "point3": "Is against the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.mccain.senate.gov/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Alex Meluskey",
+                    "party":"Republican",
+                    "bio": "Meluskey attended the College of New Jersey and went on to become the owner and operator of a printing company. He is politically active in his community where he resides with his wife and two children.",
+                    "gender": "M",
+                    "image": "img/candidates/Alex-Meluskey.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports securing the border to prevent illegal immigration",
+                                "point2": "Advocates limited government",
+                                "point3": "Promotes legislation to support small business owners"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.meluskey.com"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "David Pizer",
+                    "party":"Republican",
+                    "bio": "Pizer is a businessman, having previously onwed an upholstry company. He also stared in several TV commercials for his company. Pizer now owns the Creekside Preserve lodge and cabins in Mayer, Arizona.",
+                    "gender": "M",
+                    "image": "img/candidates/David-Pizer.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the Tea Party movement",
+                                "point2": "Advocates the reduction of the national debt",
+                                "point3": "Opposes big government"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.azcentral.com/story/news/politics/azdc/2015/11/07/david-pizer-joins-arizona-republican-race-us-senate/75220144/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Clair Van Steenwyk",
+                    "party":"Republican",
+                    "bio": "Born and raised in California, Steenwyk was interested in politics from very young age. Throughout his career, he has worked in the steel industry, the food industry, property management, and finally owned his own antique store. Steenwyk and his wife are active in the community, having started a faith-based outreach to serve others.",
+                    "gender": "M",
+                    "image": "img/candidates/Clair-Van-Steenwyk.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates rethinking alliences with nations who have supporte the Radical Islam Movement",
+                                "point2": "Supports improvement of medical and mental heath treatment of verterans",
+                                "point3": "Wants government to return land to the states"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.vanussenate.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Kelli Ward",
+                    "party":"Republican",
+                    "bio": "Ward was born in Fairmont, West Virginia and attended West Virginia School of Osteopathic Medicine, Duke University, and A.T. Still University. She began her career in medicine by working in the ER and began serving in the Arizona State Senate in 2012.",
+                    "gender": "F",
+                    "image": "img/candidates/Kelli-Ward.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes Obama Care and wants to repeal the act",
+                                "point2": "Supports securing the border",
+                                "point3": "Advocates local control of the educational system"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.kelliward.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Kelli_Ward"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Arizona",
+        "id": 6,
+		"currentSenator": "Jeff Flake",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Arkansas",
+        "id": 7,
+		"currentSenator": "John Boozman",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "John Boozman",
+                    "party":"Republican",
+                    "bio": "Boozman was born in Shreveport, Louisiana, and attended the University of Arkansas and the Southern College of Optometry. He began his career working in an optometry clinic aimed at serving lower class families. Before becoming senator, Boozman served in the House of Representatives for five terms.",
+                    "gender": "M",
+                    "image": "img/candidates/John-Boozman.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the The Energy Tax Prevention Act",
+                                "point2": "Opposes the national debt and advocates ",
+                                "point3": "Advocates the changing of the tax code to take the burden off of small businesses"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.boozman.senate.gov/public/index.cfm/home",
+                                "url2": "https://en.wikipedia.org/wiki/John_Boozman"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Curtis Coleman",
+                    "party":"Republican",
+                    "bio": "Coleman attended Central Baptist College, Southern Arkansas University, and Southwestern Baptist Theological Seminary. He also has experience as a small business owner, having founded an international food safety company. Coleman retired in 2009 and is active in state and federal poliics.",
+                    "gender": "M",
+                    "image": "img/candidates/Curtis-Coleman.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises not to serve for more than 12 years",
+                                "point2": "Opposes amnesty to for illegal immigrants",
+                                "point3": "Supports Ted Cruz's flat tax plan"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://curtiscoleman.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Conner Eldridge",
+                    "party":"Democratic",
+                    "bio": "Eldridge was born in Fayetteville, Arkansas and attended Davidson College and the University of Arkansas. He began his career in law and started working as an attorney in 2004. Eldridge resides in Fayetteville with his wife and children.",
+                    "gender": "M",
+                    "image": "img/candidates/Conner-Eldridge.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises to protect senior population",
+                                "point2": "Prioritizes job generation",
+                                "point3": "Defends gun rights under the second ammendment"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://connerforarkansas.com",
+                                "url1": "https://en.wikipedia.org/wiki/Conner_Eldridge"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Frank Gilbert",
+                    "party":"Libertarian",
+                    "bio": "After high school graduation, Gilbert served in the Navy from 1968 to 1972. He then attended Ouachita Baptist University and began his 20 year career at an alarm company which he now is a manager of. The candidate has also served as mayor, coroner, and is now a minister.",
+                    "gender": "M",
+                    "image": "img/candidates/Frank-Gilbert.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports same-sex marriage",
+                                "point2": "Does not believe we should prioritize finding new solutions for green energy",
+                                "point3": "Opposes enforcing a requirement that companies in hiring women and minorities"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://ballotpedia.org/Frank_Gilbert",
+                                "url2": "http://swtimes.com/news/politics/election-2014-libertarian-frank-gilbert-announces-bid-arkansas-governor"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Arkansas",
+        "id": 8,
+		"currentSenator": "Tom Cotton",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "California",
+        "id": 9,
+		"currentSenator": "Dianne Feinstein",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "California",
+        "id": 10,
+		"currentSenator": "Barbara Boxer",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "F",
+		"candidates":
+			[
+				{
+                    "name": "Kamala Harris",
+                    "party":"Democratic",
+                    "bio": "Borth in Oakland, California, Harris attended Howard University and the University of California, Hastings College of the Law. She began her career as an attorney and eventually became Attorney General of California. Harris is the first woman, American-Asian, and African American to have this political role in California's history. ",
+                    "gender": "F",
+                    "image": "img/candidates/Kamala-Harris.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports justice system reform and treating serious offenders unequally",
+                                "point2": "Advocates the Fair Pay Act for women",
+                                "point3": "Supports the LGBT community and fights for legislation furthering their cause"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.kamalaharris.org/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Loretta Sanchez",
+                    "party":"Democratic",
+                    "bio": "Sanchez attended Chapman University and received her MBA from American University. She began her political career in 1996 when she was elected for congress. Interestingly, Loretta and her sister, Linda, are the first two sisters to serve in congress simultaneously in the state of California.",
+                    "gender": "F",
+                    "image": "img/candidates/Loretta-Sanchez.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to improving our homeland security",
+                                "point2": "Prioritizes job generation and economic growth",
+                                "point3": "Fights for labor rights"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.loretta.org/",
+                                "url2": "https://en.wikipedia.org/wiki/Loretta_Sanchez"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Tom Del Beccaro",
+                    "party":"Republican",
+                    "bio": "Beccaro grew up in Chicago and attended UC Berkeley and the Santa Clara University School of Law. Besides his legal career in law, he has also been the chairman of the Contra Costa County Republican Party and the California Republican Party. He also is an author and his work has been featured on several famous poliical websites. Beccaro currently resides in the San Francisco Bay area and works as a business attorney and businessman.",
+                    "gender": "M",
+                    "image": "img/candidates/Tom-Del-Beccaro.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates flat tax for the state and national level",
+                                "point2": "Dedicated to finding a solution to the California drought crisis",
+                                "point3": "Opposes California's high speed rail bond"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.delbeccaroforsenate.com/",
+                                "url1": "https://en.wikipedia.org/wiki/Tom_Del_Beccaro"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "George Sundheim",
+                    "party":"Republican",
+                    "bio": "Sundheim attended Stanford University and received his law degree from Northwestern University. He began his career as an attorney and also served as the chairman of the California Republican Party. He currently owns his own business and works as a judge. ",
+                    "gender": "M",
+                    "image": "img/candidates/George-Sundheim.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates parental choice in education system",
+                                "point2": "Promises to fix the water crisis through recycling, storage, and desalinization",
+                                "point3": "Opposes legislation that puts economic burdern on the people"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://sundheimforsenate.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Colorado",
+        "id": 11,
+		"currentSenator": "Michael Bennet",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Michael Bennet",
+                    "party":"Democratic",
+                    "bio": "Bennet attended Wesleyan University and received his law degree from Yale Law School. He served as Chief of Staff to the mayor of Denver, then worked as Superintendent for the Denver Public Schools. He was elected as senator in 2009 and has been serving ever since.",
+                    "gender": "M",
+                    "image": "img/candidates/Michael-Bennet.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the Patient Protection and Affordable Care Act ",
+                                "point2": "Advocate of finding alternative energy and the building of the Keystone XL pipeline",
+                                "point3": "Promoted bill that put spending caps on the government"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.bennet.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/Michael_Bennet"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Robert Blaha",
+                    "party":"Republican",
+                    "bio": "Blaha receieved his BBA from the University of Iowa. He founded the Human Capital Associates company in 1993. He now resides in Marshalltown, CO with his wife and seven children.",
+                    "gender": "M",
+                    "image": "img/candidates/Robert-Blaha.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promotes alternative energy solutions in the US",
+                                "point2": "Advocate for gun rights and upholds second ammendment",
+                                "point3": "Suports reform of the federal reserve system"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://ballotpedia.org/Robert_Blaha",
+                                "url2": "http://votesmart.org/candidate/biography/135688/robert-blaha#.Vr5dX5MrJmA"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Ryan Frazier",
+                    "party":"Republican",
+                    "bio": "Frazier attended Columbia College and Regis University. He began his career U.S. Navy and then founded his own small business. He was elected to the House of Representatives congressional district and has served for two terms.",
+                    "gender": "M",
+                    "image": "img/candidates/Ryan-Frazier.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates criminal justice reform",
+                                "point2": "Promises to help students in debt over their loans",
+                                "point3": "Supports local control of education system"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.frazierforcolorado.com",
+                                "url1": "https://en.wikipedia.org/wiki/Ryan_Frazier"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Darryl Glenn",
+                    "party":"Republican",
+                    "bio": "Glenn attended the United States Air Force Academy, Western New England College, and the New England School of Law. He served in the air force for over 20 years and owns his own legal firm. He began his political career when he was elected to Colorado Springs City Council and the El Paso County Board of Commissioners. ",
+                    "gender": "M",
+                    "image": "img/candidates/Darryl-Glenn.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates enforcing a federal budget",
+                                "point2": "Supports benefits for verterans and their families",
+                                "point3": "Opposes ObamaCare and is dedicated to repealing it"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.electdarrylglenn.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Jack Graham",
+                    "party":"Republican",
+                    "bio": "Graham is a former successful businessman in the reinsurance industry. He also worked as director of athletics at Colorado State University. Since announcing his plans to run for senate, he has provided $1 million of his own money to his own campaign. ",
+                    "gender": "M",
+                    "image": "img/candidates/Jack-Graham.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Needs more time to establish personal stance in issues "
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.coloradoan.com/story/news/politics/elections/2016/01/29/former-csu-ad-jack-graham-enters-senate-race/79526786/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Jon Keyser",
+                    "party":"Republican",
+                    "bio": "Keyser graduated from the Air Force Academy and served overseas in combat in both Iraq and Afghanistan. He also served in the Air Force as an intelligence officer. He also attended University of Denver for a law degree and was elected to the House of Representatives in 2013. ",
+                    "gender": "M",
+                    "image": "img/candidates/Jon-Keyser.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates the pro-life cause",
+                                "point2": "Believes in local support of the educational system",
+                                "point3": "Defends gun rights and upholds second ammendment"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://jonkeyser.com/home/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Peggy Littleton",
+                    "party":"Republican",
+                    "bio": "Littleton grew up in Longmont, Colorado. She worked as a teacher and a consultant for the educational system. She began her political career in 2004, when she was elected to the Colorado State Board of Education. ",
+                    "gender": "F",
+                    "image": "img/candidates/Peggy-Littleton.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to improving educational system",
+                                "point2": "Prioritizes public safety and disaster training",
+                                "point3": "Opposes Obama's nuclear deal with Iran"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.peglittleton.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Peggy_Littleton#Career"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Greg Lopez",
+                    "party":"Republican",
+                    "bio": "After serving in the Air Force, Lopez worked as the director of the Small Business Administration. He began his poliical career in 1992 when he was elected mayor of Parker. Interestingly, he was a Democrat until 1994, when he first ran for state senate.",
+                    "gender": "M",
+                    "image": "img/candidates/Greg-Lopez.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports small businesses development",
+                                "point2": "Advocate of creating economic parity",
+                                "point3": "Supports US verterans"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://blogs.denverpost.com/thespot/2015/07/06/greg-lopez-former-sba-director-u-s-senate/121794/",
+                                "url2": "http://www.coloradosbdc.org/staff/greg-lopez"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Tim Neville",
+                    "party":"Republican",
+                    "bio": "Neville grew up in Florida and attended Regis University. For more than 25 years, he worked in foodservice distribution in a management role. He is also a small business owner, as he and his wife own an insurance agency.",
+                    "gender": "M",
+                    "image": "img/candidates/Tim-Neville.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes the IRS and fights to cut taxes",
+                                "point2": "Supports securing the border",
+                                "point3": "Opposes same-sex marriage legislation"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.nevilleforsenate.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Donald Rosier",
+                    "party":"Republican",
+                    "bio": "After attending Colorado State University, Rosier began his career as a consultant in the engineering field. He also serves on numerous poliical boards and commisions. He now resides in Jefferson County with his wife and three children.",
+                    "gender": "M",
+                    "image": "img/candidates/Donald-Rosier.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes big government",
+                                "point2": "Advocates a solid national defense",
+                                "point3": "Upholds constitutional rights"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.donaldrosier.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Colorado",
+        "id": 12,
+		"currentSenator": "Cory Gardner",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Connecticut",
+        "id": 13,
+		"currentSenator": "Richard Blumenthal",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Richard Blumenthal",
+                    "party":"Democratic",
+                    "bio": "Blumenthal attended Harvard College and received his law degree from Yale Law School. He also served in the Marine Corps Reserves as a Sergeant. The candidate served the U.S. Attorney General for the State Connecticut, the House of Representatives, and the State Senate.",
+                    "gender": "M",
+                    "image": "img/candidates/Richard-Blumenthal.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocate for same-sex marriage and censored the Respect for Marriage Act",
+                                "point2": "Promotes gun control",
+                                "point3": "Fights for the cause of homeowners and renters"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.blumenthal.senate.gov/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "August Wolf",
+                    "party":"Republican",
+                    "bio": "August, or Augie, was born in St. Paul, Minnesota and attended Princeton University. He became a world champion shot put competitor, winning fourth at the 1984 Olympics. He is also a business owner, having founded the US Athletic Trust, an organization supporting American Olympic competitors.",
+                    "gender": "M",
+                    "image": "img/candidates/August-Wolf.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates the creation of jobs through private industry",
+                                "point2": "Supports tax reform",
+                                "point3": "Promotes limited government"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.wolf2016.com",
+                                "url2": "https://en.wikipedia.org/wiki/Augie_Wolf"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Connecticut",
+        "id": 14,
+		"currentSenator": "Chris Murphy",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Delaware",
+        "id": 15,
+		"currentSenator": "Tom Carper",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Delaware",
+        "id": 16,
+		"currentSenator": "Chris Coons",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Florida",
+        "id": 17,
+		"currentSenator": "Bill Nelson",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Florida",
+        "id": 18,
+		"currentSenator": "Marco Rubio",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Ron DeSantis",
+                    "party":"Republican",
+                    "bio": "Though he grew up in Florida, DeSantis attended Yale University and Harvard Law School. He served in the Navy for several years before working as a prosecuter. In 2012, DeSantis began his political career when he was elected to the House of Representatives. ",
+                    "gender": "M",
+                    "image": "img/candidates/Ron-DeSantis.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises to eradicate crony capitalism",
+                                "point2": "Advocates enforcing term limits for poliical leaders",
+                                "point3": "Opposes congressional pensions"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.desantis2016.com"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "David Jolly",
+                    "party":"Republican",
+                    "bio": "Jolly was born in Dunedin, Florida, and attended Emory University and George Mason University School of Law. He worked in Washington, D.C. as a lobbyist and opened his own firm. He was eventually elected to the House of Representatives. ",
+                    "gender": "M",
+                    "image": "img/candidates/David-Jolly.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Wants to reform Social Security and Medicare without breaking promises to senior citizens",
+                                "point2": "Pro-life and opposes Planned Parenthood",
+                                "point3": "Protects law enforcement and supports legislation additional funding"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.davidjolly.com/"
+                            }
+                        ]
+                },
+                {
+                    "name": "Carlos López-Cantera",
+                    "party":"Republican",
+                    "bio": "Carlos was born in Madrid, Spain, and attended Miami-Dade College and University of Miami. He worked as a real estate professional for his family's business. In 2004, he bagan his political career when he served for 8 years in the House of Representatives. ",
+                    "gender": "M",
+                    "image": "img/candidates/Carlos-López-Cantera.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to improving the treatment of verterans",
+                                "point2": "Opposed to the Common Core curriculum",
+                                "point3": "Supports US involvement in working to liberate Cuba and Venezuala"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.carlosforflorida.com/"
+                            }
+                        ]
+                },
+                {
+                    "name": "Todd Wilcox",
+                    "party":"Republican",
+                    "bio": "After growing up in South Tampa, Florida, Wilcox attended University of Tampa on an Army ROTC Scholarship. He then served as an Infantry Officer in the U.S. Army and the Special Forces. After his military career, he worked for the CIA and founded two other companies. ",
+                    "gender": "M",
+                    "image": "img/candidates/Todd-Wilcox.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to improving economic growth",
+                                "point2": "Promises to strengthen national security",
+                                "point3": "Ensure and defend personal freedom"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.toddwilcox2016.com/"
+                            }
+                        ]
+                },
+                {
+                    "name": "Patrick Murphy",
+                    "party":"Democratic",
+                    "bio": "Born in Miami, Murphy attended the University of Miami. He began his poliical career when he was elected to the House of Representatives in 2012. Interestingly, Murphy switched his party affilication from Republican to Democratic months before he announced his intentions to run for congress.",
+                    "gender": "M",
+                    "image": "img/candidates/Patrick-Murphy.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the pro-choice cause",
+                                "point2": "Fights for LGBT rights and same-sex marriage",
+                                "point3": "Promotes the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.murphyforflorida.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Patrick_Murphy_(Florida_politician)"
+                            }
+                        ]
+                },
+                {
+                    "name": "Alan Grayson",
+                    "party":"Democratic",
+                    "bio": "Grayson was born in the Bronx, NYC, and attended Harvard College and  Harvard Law School. He worked as a law clerk and then as an associate in contract law. Grayson began his political career in 2010 when he was elected to serve in the House of Representatives.",
+                    "gender": "M",
+                    "image": "img/candidates/Alan-Grayson.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports increased funding for stem cell research",
+                                "point2": "Opposes the wars in Iraq and Afghanistan",
+                                "point3": "Promotes the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://en.wikipedia.org/wiki/Alan_Grayson"
+                            }
+                        ]
+                },
+                {
+                    "name": "Pam Keith",
+                    "party":"Democratic",
+                    "bio": "Keith was born in Turkey while her father served in the US Navy. She graduated from U.C. Davis and  Boston College Law School before beginning her career in the US Navy. She currently resides in Palm Beach County where she works for a non-profit organization that benefits veterans and the homeless. ",
+                    "gender": "F",
+                    "image": "img/candidates/Pam-Keith.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports reforming the tax code to close the income gap",
+                                "point2": "Advocate for same-sex marriage and LGBT rights",
+                                "point3": "Promotes providing opportunities for citizenship to illegal immigrants"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://pamkeithforsenate2016.com/"
+                            }
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Georgia",
+        "id": 19,
+		"currentSenator": "Johnny Isakson",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Lee Benedict",
+                    "party":"Republican",
+                    "bio": "Benedict attended Liberty University and the University of Georgia. He served in the Army from 1996 to 2004 and is the author of Freedom Heist; The Left's Theft of Liberty. He now resides in Columbia County with his wife and child.",
+                    "gender": "M",
+                    "image": "img/candidates/Lee-Benedict.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports deporting illegal immigrants",
+                                "point2": "Opposes accepting foreign aid",
+                                "point3": "Fights for gun rights"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.leebenedict2016.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Derrick Grayson",
+                    "party":"Republican",
+                    "bio": "Grayson resides in Stone Mountain and works as a MARTA senior network engineer. The conservative candidate is also a minister. ",
+                    "gender": "M",
+                    "image": "img/candidates/Derrick-Grayson.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates implementation of the fair tax system",
+                                "point2": "Supports legalization of marijuana",
+                                "point3": "Fights to bring troops home"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.grayson2016.com/",
+                                "url2": "http://clatl.com/freshloaf/archives/2013/05/23/meet-derrick-grayson-the-minister-of-truth-yet-another-us-senate-candidate"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Johnny Isakson",
+                    "party":"Republican",
+                    "bio": "Isakson was born in Atlanta, Georgia and attended University of Georgia. He began his own real estate firm and served as president for 22 years. The incumbent also served in the House of Representatives before becoming senator.",
+                    "gender": "M",
+                    "image": "img/candidates/Johnny-Isakson.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises to expand and improve transportation system in Georgia",
+                                "point2": "Fights to minimize unionization in the workplace",
+                                "point3": "Dedicated to solving the water crisis"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.isakson.senate.gov/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Georgia",
+        "id": 20,
+		"currentSenator": "David Perdue",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Hawaii",
+        "id": 21,
+		"currentSenator": "Brian Schatz",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Brian Schatz",
+                    "party":"Democratic",
+                    "bio": "Schatz was raised in Hawaii and attended Pomona College in Claremont, California. He was the CEO of a non-profit organization that benefitted the community before starting his political career. He also served in the House of Representatives before becoming senator.",
+                    "gender": "M",
+                    "image": "img/candidates/Brian-Schatz.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to finding and transitionaing to more forms of renewable energy",
+                                "point2": "Works to grow tourism for local economy",
+                                "point3": "Fights the injustices that Native Hawaiians face"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.schatz.senate.gov/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Charles Collins",
+                    "party":"Republican",
+                    "bio": "Collins attended the Lincoln School of Law, University of Hawaii, and the University of California. He was an aircraft electritian, served in the US army, and was the CEO of Sun Helicopter Aerospace. He is actively interested in poliics as he has run as a candidate for the House of Representatives, State Governer, and Senator. ",
+                    "gender": "M",
+                    "image": "img/candidates/Charles-Collins.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes Medicare and Affordable Care Act",
+                                "point2": "Opposes government funding for stem cell research",
+                                "point3": "Believes that the US should not remain in the UN "
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://teapartycheer.com/bios/west/hawaii/charles-collins-hi-bio/",
+                                "url2": "https://ballotpedia.org/Charles_Collins",
+                                "url3": "https://www.isidewith.com/hawaii-voter-guide/124/9021598:584914615"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Hawaii",
+        "id": 22,
+		"currentSenator": "Mazie Hirono",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Idaho",
+        "id": 23,
+		"currentSenator": "Mike Crapo",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Mike Crapo",
+                    "party":"Republican",
+                    "bio": "Crapo was born in Bonneville County, Idaho, and attended Brigham Young University and Harvard Law School. He served for 8 years representing Idaho in the State Senate and 6 years in the House of Representatives. He has been a senator since 1998. ",
+                    "gender": "M",
+                    "image": "img/candidates/Mike-Crapo.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Working to ensure long-term care for senior citizens",
+                                "point2": "Advocate of the Violence Against Women Act",
+                                "point3": "Supports the NASA Idaho Space Grant Consortium"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.crapo.senate.gov/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Idaho",
+        "id": 24,
+		"currentSenator": "Jim Risch",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Illinois",
+        "id": 25,
+		"currentSenator": "Dick Durbin",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Illinois",
+        "id": 26,
+		"currentSenator": "Mark Kirk",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Mark Kirk",
+                    "party": "Republican",
+                    "bio": "Kirk was born in Champaign, Illinois, and attended Blackburn College, the Universidad Nacional Autónoma de México, London School of Economics, and Georgetown University. He worked as an intelligence officer in the Navy and as a lawyer before he was elected to the House of Representatives in 2000. He was elected senator in 2010. ",
+                    "gender": "M",
+                    "image": "img/candidates/Mark-Kirk.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the wars in Iran and Afghanistan",
+                                "point2": "Advocates supporting Israel as an ally",
+                                "point3": "Promotes the Lincoln Legacy Infrastructure Development Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.kirk.senate.gov/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "James Marter",
+                    "party": "Republican",
+                    "bio": "Marter was born in Terre Haute, Indiana, and attended Purdue University. Over the course of his career he has been a business owner, manager, and consultant. He has overseen multi-million dollar projects and has experience in the areas of Information Technology and Enterprise Resource Planning.",
+                    "gender": "M",
+                    "image": "img/candidates/James-Marter.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the pro-life movement and fights to defund Planned Parenthood",
+                                "point2": "Opposes Obamacare and promotes repealing the Affordable Care Act",
+                                "point3": "Opposes government funding and involvement in the educational system"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.marter4senate.us/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Tammy Duckworth",
+                    "party": "Democratic",
+                    "bio": "Duckworth was born in Bangkok, Thailand and attended the University of Hawaii and George Washington University. She was deployed in Iraq and lost both of her legs and the use of one of her arms when a grenade triggered an explosion in her helicopter. Since her return home, she has strived to support vereterans and began her political career by serving in the House of Representatives.",
+                    "gender": "F",
+                    "image": "img/candidates/Tammy-Duckworth.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports gun control",
+                                "point2": "Promotes the Serv Act",
+                                "point3": "Advocate for improving treatment of veterans"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://tammyduckworth.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Napoleon Harris",
+                    "party": "Democratic",
+                    "bio": "Harris grew up in Dixmoor, Illinois and attended Northwestern University and Northwestern Kellogg School of Business Management. He started his career as a professional football player, playing in 7 NFL seasons. He currently serves as State Senator in Illinois.",
+                    "gender": "M",
+                    "image": "img/candidates/Napoleon-Harris.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises to improve business climate for economic growth",
+                                "point2": "Supports the Urban Flooding Awareness Act",
+                                "point3": "Focuses on reducing violent crime in the community"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://senatornapoleonharris.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Andrea Zopp",
+                    "party": "Democratic",
+                    "bio": "Zopp attended Harvard Law School and shortly after began her career as a lawyer. She has worked as an attorney, law clerk, and a professor. Andrea currently resides in Morgan Park with her husband and three children.",
+                    "gender": "F",
+                    "image": "img/candidates/Andrea-Zopp.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Fights to ensure equal pay for women",
+                                "point2": "Supports and upholds Affordable Care Act and Medicade",
+                                "point3": "Advocates for gun control and restrictions"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.andreazoppforsenate.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Indiana",
+        "id": 27,
+		"currentSenator": "Dan Coats",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Baron Hill",
+                    "party": "Democratic",
+                    "bio": "Hill attended Furman University and began his career in the insurance and real estate business. He served in the House of Representatives for 8 years. When he ran for senator in 1990, he walked the length of the state, meeting voters and campaigning. ",
+                    "gender": "M",
+                    "image": "img/candidates/Baron-Hill.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Voted for the No Child Left Behind Act",
+                                "point2": "Promotes the Blue Dog Coalition",
+                                "point3": "Advocates for the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://en.wikipedia.org/wiki/Baron_Hill"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Marlin Stutzman",
+                    "party": "Republican",
+                    "bio": "Stutzman grew up in Howe, Indiana, where he began his career as a farmer and co-owned a small farming business with his brother. He began his poliical career in the Indiana General Assembly, serving in both the House and Senate. He was then elected to the House of Representatives where he has served since.",
+                    "gender": "M",
+                    "image": "img/candidates/Marlin-Stutzman.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports funding for the military",
+                                "point2": "Advocates the pro-life cause",
+                                "point3": "Opposes ObamaCare and votes to repeal the legislation"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.marlinstutzman.com/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Todd Young",
+                    "party": "Republican",
+                    "bio": "Young graduated from the U.S. Naval Academy and began his career in the Marine Corps. He then attended the University of Chicago and received his law degree from Indiana University. He and his wife worked at a law firm before he was elected to the House of Representatives. ",
+                    "gender": "M",
+                    "image": "img/candidates/Todd-Young.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the Veterans Access to Care Act",
+                                "point2": "Fights to reform welfare",
+                                "point3": "Advocates a string national defense against ISIS"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://toddyoung.org/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Indiana",
+        "id": 28,
+		"currentSenator": "Joe Donnelly",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Iowa",
+        "id": 29,
+		"currentSenator": "Chuck Grassley",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Chuck Grassley",
+                    "party": "Republican",
+                    "bio": "Grassley was born in New Hartford, Iowa and attended the University of Northern Iowa and the University of Iowa. Before politics, he worked as a farmer, sheet metal shearer, and assembly line worker. He began serving in the House of Representatives in 1974 and was elected to Senate in 1980. ",
+                    "gender": "M",
+                    "image": "img/candidates/.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the Violence Against Women Act",
+                                "point2": "Promotes community anti-drug coalitions and Drug Free Communities",
+                                "point3": "Advocates the Patriot Act for national security"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.grassley.senate.gov/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Rob Hogg",
+                    "party": "Democratic",
+                    "bio": "Hogg was born in Iowa City and attended the University of Iowa and the University of Minnesota. He began his legal career working as a clerk and then moved on to practicing at a law firm. He is in his third term serving at State Sentar. ",
+                    "gender": "M",
+                    "image": "img/candidates/Rob-Hogg.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates for climate action",
+                                "point2": "Promotes the Cedar Rapids Watershed Coalition",
+                                "point3": "Supports public education on the dangers of climate change"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.robhogg.org/"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Tom Fiegen",
+                    "party": "Democratic",
+                    "bio": "Fiegan was born and raised on a family farm in South Dakota. He worked on the family farm, in grain merchandising, and as an apprentice electrician before attending Kansas State University and the University of Iowa. He is currenty a bankruptcy lawyer with a focus on farming and small business. ",
+                    "gender": "M",
+                    "image": "img/candidates/Tom-Fiegen.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates prescription drug reform",
+                                "point2": "Promises to fight for Wall Street reform",
+                                "point3": "Promotes changing energy system for climate change"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://fiegenforussenate.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Tom_Fiegen"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Bob Krause",
+                    "party": "Democratic",
+                    "bio": "Krasue was born and raised in Palo Alto County and attended the University of Iowa. He began his political career directly after graduation when he was elected state representative for his hometown. He also taught at Iowa State University and served in the  National Guard and Army Reserve.",
+                    "gender": "M",
+                    "image": "img/candidates/Bob-Krause.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocate of raising the minimum wage",
+                                "point2": "Supports providing mental health treatment for veterans",
+                                "point3": "Promotes ethonal and the renewable fuel standards"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.krauseforiowa.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Indiana",
+        "id": 30,
+		"currentSenator": "Joni Ernst",
+        "party":"Republican",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Kansas",
+        "id": 31,
+		"currentSenator": "Pat Roberts",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Kansas",
+        "id": 32,
+		"currentSenator": "Jerry Moran",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Jerry Moran",
+                    "party": "Republican",
+                    "bio": "Moran attended Fort Hays State University and the University of Kansas. He began his career in private law, but later became an attorney. He was elected to the House of Representatives in 1996 and to the Senate in 2010. ",
+                    "gender": "M",
+                    "image": "img/candidates/Jerry-Moran.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Provides incentives for businesses to donate food to the hungry ",
+                                "point2": "Promises to maintain strong transportation infrastructure",
+                                "point3": "Fights to improve general aviation safety"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.moran.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/Jerry_Moran"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Patrick Wiesner",
+                    "party": "Democratic",
+                    "bio": "Wiesner grew up on the Trego County line and attended Fort Hays State University and University of Kansas. After law school, he opened up his own practice and now owns the Wiesner & Frackowiak firm. He also served for over 20 years in the military.",
+                    "gender": "M",
+                    "image": "img/candidates/Patrick-Wiesner.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Wants to prevent future debt build up",
+                                "point2": "Advocated properly funding the Treasury Department and IRS",
+                                "point3": "Supports eradicating the subsidy code from the tax code"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.wiesnerforsenate.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Kentucky",
+        "id": 33,
+		"currentSenator": "Mitch McConnell",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Kentucky",
+        "id": 34,
+		"currentSenator": "Rand Paul",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+		"candidates":
+			[
+				{
+                    "name": "Jim Gray",
+                    "party": "Democratic",
+                    "bio": "Gray was raised in Glasgow, Kentucky and attended Vanderbilt University. He then worked in his family's construction business for over 20 years. Gray then worked as a Loeb Fellow at Harvard University's Graduate School of Design before becoming Mayor of Lexington in 2010. ",
+                    "gender": "M",
+                    "image": "img/candidates/Jim-Gray.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises to reduce spending and debt ",
+                                "point2": "Advocates making the government more efficient",
+                                "point3": "Fights for the creation of more jobs"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://en.wikipedia.org/wiki/Jim_Gray_(American_politician)"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Rory Houlihan",
+                    "party": "Democratic",
+                    "bio": "Houlihan is a blogger who is actively involved and interested in politics. He has a question and answer section where he discusses current political issues",
+                    "gender": "M",
+                    "image": "img/candidates/Rory-Houlihan.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Houlihan has not yet made his platform points available"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.quora.com/profile/Rory-Houlihan"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Jeff Kender",
+                    "party": "Democratic",
+                    "bio": "Kender considers himself a common man and is interested in having himself represent the middle class in the Senate. He also actively participates in the USW.",
+                    "gender": "M",
+                    "image": "img/candidates/Jeff Kender.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports overturning Citizens United",
+                                "point2": "Protects Social Security and Medicare",
+                                "point3": "Advocates raising the minimum wage"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.kender4senate2016.com"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Ron Leach",
+                    "party": "Democratic",
+                    "bio": "",
+                    "gender": "M",
+                    "image": "img/candidates/Ron-Leach.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "",
+                                "point2": "",
+                                "point3": ""
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.crapo.senate.gov/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Louisiana",
+        "id": 35,
+		"currentSenator": "David Vitter",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Charles Boustany",
+                    "party": "Republican",
+                    "bio": "Boustany was raised in Lafayette and attended the University of Southwestern Louisiana and the Louisiana State University School of Medicine. He began his career as a cardiovascular surgeon and also owned a small business. In 2004, he became involved in politics when he was was elected to serve in the House of Representatives.",
+                    "gender": "M",
+                    "image": "img/candidates/Charles-Boustany.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Support small businesses through tax reform",
+                                "point2": "Dedicated to strengthening Louisiana's transportation infrastructure",
+                                "point3": "Advocates for improving treatment of verterans"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://boustany.house.gov/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Louisiana",
+        "id": 36,
+		"currentSenator": "Bill Cassidy",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Maine",
+        "id": 37,
+		"currentSenator": "Susan Collins",
+        "party":"Republican",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Maine",
+        "id": 38,
+		"currentSenator": "Angus King",
+        "party":"Independent",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Maryland",
+        "id": 39,
+		"currentSenator": "Barbara Mikulski",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "F",
+        "candidates":
+			[
+				{
+                    "name": "Donna Edwards",
+                    "party": "Democratic",
+                    "bio": "Donna was born in Yanceyville, North Carolina and attended Wake Forest University and the University of New Hampshire School of Law. She worked as a clerk and then served as dirctor of a support group for women who had suffered from domestic violence. She began her political career in 2008 when she was elected to serve in the House of Representatives.",
+                    "gender": "F",
+                    "image": "img/candidates/Donna-Edwards.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates for expanding Medicare and Social Security",
+                                "point2": "Supports same-sex marriage and LGBTQ rights",
+                                "point3": "Promotes enforcing gun control"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://donnaedwardsforsenate.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Donna_Edwards"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Maryland",
+        "id": 40,
+		"currentSenator": "Ben Cardin",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Massachusetts",
+        "id": 41,
+		"currentSenator": "Elizabeth Warren",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Massachusetts",
+        "id": 42,
+		"currentSenator": "Ed Markey",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Michigan",
+        "id": 43,
+		"currentSenator": "Debbie Stabenow",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Michigan",
+        "id": 44,
+		"currentSenator": "Gary Peters",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Minnesota",
+        "id": 45,
+		"currentSenator": "Amy Klobuchar",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Minnesota",
+        "id": 46,
+		"currentSenator": "Al Franken",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Mississippi",
+        "id": 47,
+		"currentSenator": "Thad Cochran",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Mississippi",
+        "id": 48,
+		"currentSenator": "Roger Wicker",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Missouri",
+        "id": 49,
+		"currentSenator": "Claire McCaskill",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Missouri",
+        "id": 50,
+		"currentSenator": "Roy Blunt",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Jason Kander",
+                    "party": "Democratic",
+                    "bio": "Kander began his career by serving in the Army National Guard and attended Georgetown University for a law degree while serving in Georgetown's ROTC battalion. After a military tour in Afghanistan, he taught at the Missouri National Guard's Officer Candidate School. In 2008, he was elected to the Missouri House of Representatives and then as the Missouri Secretary of State. ",
+                    "gender": "M",
+                    "image": "img/candidates/Jason-Kander.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Advocates for women and fights human sex trafficking ",
+                                "point2": "Supports campaign financial and ethical reform",
+                                "point3": "Promotes solutions for small business"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.jasonkander.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Jason_Kander"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Montana",
+        "id": 51,
+		"currentSenator": "Jon Tester",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Montana",
+        "id": 52,
+		"currentSenator": "Steve Daines",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Nebraska",
+        "id": 53,
+		"currentSenator": "Deb Fischer",
+        "party":"Republican",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Nebraska",
+        "id": 54,
+		"currentSenator": "Ben Sasse",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Nevada",
+        "id": 55,
+		"currentSenator": "Harry Reid",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Catherine Cortez Masto",
+                    "party": "Democratic",
+                    "bio": "Catherine was born in Las Vegas, Nevada and attended the University of Nevada and Gonzaga University School of Law. She worked as a civil attorney and a prosecuter before serving as Nevada Attorney General. Catherine resides in Las Vegas with her husband.",
+                    "gender": "F",
+                    "image": "img/candidates/Catherine Cortez Masto.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises to protect Medicade and Social Security for senior citizens",
+                                "point2": "Advocates raising the minimum wage",
+                                "point3": "Opposes the Citizens United decision"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://catherinecortezmasto.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Catherine_Cortez_Masto"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Nevada",
+        "id": 56,
+		"currentSenator": "Dean Heller",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "New Hampshire",
+        "id": 57,
+		"currentSenator": "Jeanne Shaheen",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "New Hampshire",
+        "id": 58,
+		"currentSenator": "Kelly Ayotte",
+        "party":"Republican",
+		"contested": true,
+        "gender": "F",
+        "candidates":
+			[
+				{
+                    "name": "Maggie Hassan",
+                    "party": "Democratic",
+                    "bio": "Hassan was born in Boston and attended Brown University and Northeastern School of Law. She worked as an attorney at various firms and counsels from 1985 to 1999. In 2004, she began her political career when she was elected to serve in the New Hampshire Senate. ",
+                    "gender": "F",
+                    "image": "img/candidates/Maggie-Hassan.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to combatting the heroin and opioid crisis",
+                                "point2": "Develops environment where businesses can thrive and unemployment decreases",
+                                "point3": "Protects the natural resources vital to New Hampshire's economy"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://maggiehassan.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Maggie_Hassan"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "New Jersey",
+        "id": 59,
+		"currentSenator": "Bob Menendez",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "New Jersey",
+        "id": 60,
+		"currentSenator": "Cory Booker",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "New Mexico",
+        "id": 61,
+		"currentSenator": "Tom Udall",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "New Mexico",
+        "id": 62,
+		"currentSenator": "Martin Heinrich",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "New York",
+        "id": 63,
+		"currentSenator": "Chuck Schumer",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Chuck Schumer",
+                    "party": "Democratic",
+                    "bio": "Schumer was born in Brooklyn, NY and attended Harvard College and Harvard Law School. He immediately began his political career, having been elected to the New York State Assembly in 1974 and to the House of Representatives in 1980. He has served New York as senator for 16 years.",
+                    "gender": "M",
+                    "image": "img/candidates/Chuck-Schumer.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes nuclear deal with Iran",
+                                "point2": "Supports the Affordable Care Act",
+                                "point3": "Fights to secure homeland security funds"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.schumer.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/Chuck_Schumer"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "New York",
+        "id": 64,
+		"currentSenator": "Kirsten Gillibrand",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "North Carolina",
+        "id": 65,
+		"currentSenator": "Richard Burr",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Greg Brannon",
+                    "party": "Republican",
+                    "bio": "Brannon attended the University of Southern California and Chicago Medical School. He began his career by setting up his own successful obstetrics practice. To support his pro-life views, Greg is also a board member for a pregnancy support group and member of a pro-life organization for doctors. ",
+                    "gender": "M",
+                    "image": "img/candidates/Greg-Brannon.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports giving local farmers control of their property",
+                                "point2": "Promises transparency regarding the Federal Reserve",
+                                "point3": "Opposes same-sex marriage"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://gregbrannon.nationbuilder.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Greg_Brannon"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "North Carolina",
+        "id": 66,
+		"currentSenator": "Thom Tillis",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "North Dakota",
+        "id": 67,
+		"currentSenator": "John Hoeven",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "John Hoeven",
+                    "party": "Republican",
+                    "bio": "Hoeven was born in Bismarck and attended Dartmouth College and Northwestern University. He served as vice president, president, and CEO to numerous companies before being elected to State Governer. He has served as State Senator since 2010. ",
+                    "gender": "M",
+                    "image": "img/candidates/John-Hoeven.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports farmers facing agricultural concerns",
+                                "point2": "Advocates international partnership with Asia-Pacific region",
+                                "point3": "Promises to restore and improve statewide water infrastructure"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.hoeven.senate.gov/public/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "North Dakota",
+        "id": 68,
+		"currentSenator": "Heidi Heitkamp",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Ohio",
+        "id": 69,
+		"currentSenator": "Sherrod Brown",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Ohio",
+        "id": 70,
+		"currentSenator": "Rob Portman",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Ted Strickland",
+                    "party": "Democratic",
+                    "bio": "Sticklnd was born in Lucasville, Ohio and attended Asbury College, Asbury Theological Seminary, and the University of Kentucky. Strickland worked as a prison psychologist, a minister, and a professor. He began his poliical career in 1992 when he was elected to serve in the House of Representatives.",
+                    "gender": "M",
+                    "image": "img/candidates/Ted-Strickland.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Fights for equal pay for women ",
+                                "point2": "Supports making higher education debt-free",
+                                "point3": "Opposes Citizens United and works to overturn decision"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.tedstrickland.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Oklahoma",
+        "id": 71,
+		"currentSenator": "Jim Inhofe",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Oklahoma",
+        "id": 72,
+		"currentSenator": "James Lankford",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "James Lankford",
+                    "party": "Republican",
+                    "bio": "Lankford grew up in Dallas, Texas and attended the University of Texas at Austin and Southwestern Baptist Theological Seminary. He began his career working as a director for a large Christian camp before he was elected to the House of Representatives in 2010. He has served as Senator since 2014. ",
+                    "gender": "M",
+                    "image": "img/candidates/James-Lankford.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promotes reforming the No Child Left Behind Act",
+                                "point2": "Supports the Keystone XL Pipeline",
+                                "point3": "Opposes the Iran Nuclear Agreement"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.lankford.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/James_Lankford"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Oregon",
+        "id": 73,
+		"currentSenator": "Ron Wyden",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Ron Wyden",
+                    "party": "Democratic",
+                    "bio": "Wyden was born in Wichita, Kansas and attended the University of California, Stanford University, and University of Oregon School of Law. He began his career teaching gerontology and co-founded an support group for the elderly. Wyden served 7 terms in the House of Representatives and has been senator since 1996. ",
+                    "gender": "M",
+                    "image": "img/candidates/Ron-Wyden.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Protects the wilderness of Oregon",
+                                "point2": "Opposes the war in Iraq and fights to bring troops home",
+                                "point3": "Supports victims of sex trafficking"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://www.wyden.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/Ron_Wyden"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Oregon",
+        "id": 74,
+		"currentSenator": "Jeff Merkley",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Pennsylvania",
+        "id": 75,
+		"currentSenator": "Bob Casey, Jr.",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Pennsylvania",
+        "id": 76,
+		"currentSenator": "Pat Toomey",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Joe Sestak",
+                    "party": "Democratic",
+                    "bio": "Sestak was born in Delaware County, Pennsylvania and attended U.S. Naval Academy. He then served in the Navy for over 30 years and was awarded many military decorations. In 2006, he began his political career when he was elected to serve in the House of Representatives. ",
+                    "gender": "M",
+                    "image": "img/candidates/Joe-Sestak.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Focuses on finding environmentally friendly solutions",
+                                "point2": "Protects those with Alzheimer’s in the Elder Abuse Victims Act",
+                                "point3": "Supports legislation to legalize medical marijuana"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://joesestak.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Joe_Sestak"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Rhode Island",
+        "id": 77,
+		"currentSenator": "Jack Reed",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Rhode Island",
+        "id": 78,
+		"currentSenator": "Sheldon Whitehouse",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "South Carolina",
+        "id": 79,
+		"currentSenator": "Lindsey Graham",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "South Carolina",
+        "id": 80,
+		"currentSenator": "Tim Scott",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Joyce Dickerson",
+                    "party": "Democratic",
+                    "bio": "Dickerson grew up in Savannah, Georgia and attended Benedict College and Midlands Technical College. She began her career as an auditor and worked until 2006. The candidate ran for senator in 2014 unsuccessfully, but did win the primary elections. ",
+                    "gender": "M",
+                    "image": "img/candidates/Joyce-Dickerson.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Prioritizes reducing the national debt",
+                                "point2": "Promotes improved treatment of verterans",
+                                "point3": "Supports immigration reform for illegal immigrants"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://joycedickersonsc.com/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "South Dakota",
+        "id": 81,
+		"currentSenator": "John Thune",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "John Thune",
+                    "party": "Republican",
+                    "bio": "Thune was raised in Murdo, South Dakota and attended Biola University and the University of South Dakota. After graduation, he worked as a small business administrator, state railroad director, and executive director of the South Dakota Municipal League. In 1996, Thune was elected to the House of Representatives and has serve in the senate since 2004. ",
+                    "gender": "M",
+                    "image": "img/candidates/John-Thune.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Seeks to improve conditions for Indian reservations",
+                                "point2": "Suports securing the border and enforcing immigration laws",
+                                "point3": "Opposes ObamaCare and fights to repeal it"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.thune.senate.gov/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "South Dakota",
+        "id": 82,
+		"currentSenator": "Mike Rounds",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Tennessee",
+        "id": 83,
+		"currentSenator": "Lamar Alexander",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Tennessee",
+        "id": 84,
+		"currentSenator": "Bob Corker",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Texas",
+        "id": 85,
+		"currentSenator": "John Cornyn",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Texas",
+        "id": 86,
+		"currentSenator": "Ted Cruz",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Utah",
+        "id": 87,
+		"currentSenator": "Orrin Hatch",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Utah",
+        "id": 88,
+		"currentSenator": "Mike Lee",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Mike Lee",
+                    "party": "Republican",
+                    "bio": "Lee was born in Mesa, Arizona and attended Brigham Young University and J. Reuben Clark Law School. He began his career serving as a law clerk and became an attorney. He has been serving in the US senate since 2010. ",
+                    "gender": "M",
+                    "image": "img/candidates/Mike-Lee.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports protection of gun rights",
+                                "point2": "Advocates for tax reform",
+                                "point3": "Promotes justice system reform and treating serious offenders unequally"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.lee.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/Mike_Lee_(U.S._politician)"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Vermont",
+        "id": 89,
+		"currentSenator": "Patrick Leahy",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Patrick Leahy",
+                    "party": "Democratic",
+                    "bio": "Leahy was born in Montpelier and attended College in Colchester and Georgetown University Law Center. He began his career as an asociate in a firm and later became the State's Attorney of Chittenden County. When he became senator in 1974, was the youngest Senator in Vermont history to be elected. ",
+                    "gender": "M",
+                    "image": "img/candidates/Patrick-Leahy.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Works to conserve state's farmland",
+                                "point2": "Supports finding alternative, renewable forms of energy",
+                                "point3": "Strives to provide affordable housing"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.leahy.senate.gov/"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Vermont",
+        "id": 90,
+		"currentSenator": "Bernie Sanders",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Virginia",
+        "id": 91,
+		"currentSenator": "Mark Warner",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Virginia",
+        "id": 92,
+		"currentSenator": "Tim Kaine",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Washington",
+        "id": 93,
+		"currentSenator": "Patty Murray",
+        "party":"Democratic",
+		"contested": true,
+        "gender": "F",
+        "candidates":
+			[
+				{
+                    "name": "Chris Vance",
+                    "party": "Republican",
+                    "bio": "Vance was born in Seattle and attended Western Washington University. He began his career working for a congressman then transitioned to a job as a research analyst. He served in the State House of Representatives from 1991 to 1993 and is currenty a small business owner. ",
+                    "gender": "M",
+                    "image": "img/candidates/Chris-Vance.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes federal funding of abortions",
+                                "point2": "Promises to fight gridlock and filibuster in the senate",
+                                "point3": "Supports strengthening, not eradicating Social Security and Medicare"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://chrisvanceforsenate.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Chris_Vance_(politician)"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Washington",
+        "id": 94,
+		"currentSenator": "Maria Cantwell",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "West Virginia",
+        "id": 95,
+		"currentSenator": "Joe Manchin",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "West Virginia",
+        "id": 96,
+		"currentSenator": "Shelley Moore Capito",
+        "party":"Republican",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Wisconsin",
+        "id": 97,
+		"currentSenator": "Ron Johnson",
+        "party":"Republican",
+		"contested": true,
+        "gender": "M",
+        "candidates":
+			[
+				{
+                    "name": "Russ Feingold",
+                    "party": "Democratic",
+                    "bio": "Feingold was born in Janesville, Wisconsin and attended the University of Wisconsin, the University of Oxford, and Harvard Law School. He worked as an attoney for a small firm and was elected to the Wisconsin Senate in 1982. He served in the US Senate from 1992 to 2010 and is now running for re-election. ",
+                    "gender": "M",
+                    "image": "img/candidates/Russ-Feingold.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports same-sex marriage and voted against Defense of Marriage Act",
+                                "point2": "Opposes the Patriot Act",
+                                "point3": "Advocates for Wall Street reform"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://russfeingold.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Russ_Feingold"
+                            }
+
+                        ]
+                }
+			]
+	},
+    {
+		"State": "Wisconsin",
+        "id": 98,
+		"currentSenator": "Tammy Baldwin",
+        "party":"Democratic",
+		"contested": false,
+        "gender": "F"
+	},
+    {
+		"State": "Wyoming",
+        "id": 99,
+		"currentSenator": "Mike Enzi",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	},
+    {
+		"State": "Wyoming",
+        "id": 100,
+		"currentSenator": "John Barrasso",
+        "party":"Republican",
+		"contested": false,
+        "gender": "M"
+	}
+]

@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Practice</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/angular.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+    <body ng-app="senate">
+        <div ng-controller="SenateController as players">
+            <!-- <div class='wrapper'>
+                <h1>Basketball Dashboard</h1>
+                <input ng-model="name" placeholder="Sort by Name"></input>
+                <br></br>
+            </div> -->
+
+
+            <!-- <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>
+                            <a href="#" ng-click="players.sort('first')">
+                            Name
+                            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+                            </a>
+                        </th>
+                        <th>
+                            <a href="#" ng-click="players.sort('games')">
+                            Games
+                            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+                            </a>
+                        </th>
+                        <th>
+                            <a href="#" ng-click="players.sort('minutes')">
+                            Minutes
+                            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+                            </a>
+                        </th>
+                        <th>
+                            <a href="#" ng-click="players.sort('points')">
+                            Points
+                            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+                            </a>
+                        </th>
+                        <th>
+                            <a href="#" ng-click="players.sort('percentage')">
+                            Shooting %
+                            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+                            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="player in players.players | filter: name">
+                        <td><img ng-src="{{player.images[0]}}"></td>
+                        <td>{{ player.first }} {{ player.last }}</td>
+                        <td>{{ player.games }}</td>
+                        <td>{{ player.minutes }}</td>
+                        <td>{{ player.points }}</td>
+                        <td>{{ ((player.fieldGoals + player.twoPoints + player.threePoints + player.freeThrows)/(player.fieldGoalsAttempted + player.twoPointsAttempted + player.threePointsAttempted + player.freeThrowsAttempted)) * 100 | number: 2}}</td>
+                    </tr>
+                </tbody>
+            </table> -->
+        </div>
+    </body>
+</html>

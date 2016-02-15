@@ -1,0 +1,14 @@
+div.wrapper {
+    text-align: center;
+}
+
+input[type="text"] {
+     position: relative;
+     display: block;
+     margin : 0 auto;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
