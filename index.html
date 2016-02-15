@@ -3,8 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Practice</title>
+  <title>Senate Dashboard</title>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -16,32 +17,57 @@
 </head>
     <body ng-app="senate">
 
-        <h1 id="header-title">US Senate Dashboard</h1>
+        <div class="row header">
+            <div class="row header-stripe"></div>
+            <h1 id="header-title">US Senate Dashboard</h1>
+        </div>
 
-        <div id="contentContainer" class="col-lg-10 col-lg-offset-1" ng-controller="TabsCtrl as tab">
+        <div id="intro">
+            Welcome to an overview of the 2016 US Senate Election.<br>
+            Click on the tabs to view the seats in different formats and learn
+            more about the senators and candidates.
+        </div>
 
-            <span ng-click="showTab1=false; tab.changeTab(1)" class="active-tab tab">Show</span>
-            <span ng-click="showTab1=true; tab.changeTab(2)" class="inactive-tab tab">Hide</span>
+        <div id="content-container" class="col-lg-10 col-lg-offset-1" ng-controller="TabsCtrl as tab">
+
+            <span ng-click="showTab1=false; tab.changeTab(1)" class="active-tab tab">Table</span>
+            <span ng-click="showTab1=true; tab.changeTab(2)" class="inactive-tab tab">Map</span>
 
             <div ng-hide="showTab1" class="content" id="tab1" ng-controller="TableCtrl as seats">
-                <input ng-model="name" placeholder="Sort by Name"></input>
+
+                <div class="container-1">
+                    <span class="explanation">
+                        If a seat is contested, click on the row to view the candidates.
+                        Sort the table by clicking on the table headings.
+                    </span>
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input ng-model="name" placeholder="Search" class="search" />
+                </div>
 
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>Id</th>
+                            <th>Seat No.</th>
+                            <th>State</th>
+                            <th>Senator</th>
+                            <th>Party</th>
+                            <th>Contested</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-repeat="product in seats.products">
+                            <td>{{product.id}}</td>
                             <td>{{product.State}}</td>
+                            <td>{{product.currentSenator}}</td>
+                            <td>{{product.party}}</td>
+                            <td>{{product.contested}}</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
             <div ng-show="showTab1" class="content" id="tab2">
-                <div id="map" style="width: 300px; height: 300px;"></div>
+                <div id="map"></div>
             </div>
 
         </div>
