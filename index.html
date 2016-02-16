@@ -47,7 +47,7 @@
                     <input ng-model="search" placeholder="Search" class="search" />
                 </div>
                 <div style="overflow:scroll; height:200px;">
-                    <table class="table table-responsive" style="border: solid white;">
+                    <table class="table table-responsive" style="border: solid white; color: white;">
                         <thead>
                             <tr>
                                 <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
@@ -60,13 +60,14 @@
                         <tbody>
                             <tr ng-repeat="product in seats.products | filter: search | orderBy: seats.sort:seats.direction"
                             ng-class="product.party == 'Republican' ? 'republican-row': 'democratic-row'"
-                            ng-click="seats.showCandidates">
+                            ng-click="seats.setUpCandidates(product.id-1)">
+                            <a href="#candidates" class="candidate-link">
                                 <td>{{product.id}}</td>
                                 <td>{{product.State}}</td>
                                 <td>{{product.currentSenator}}</td>
                                 <td>{{product.party}}</td>
-                                <td>{{product.contested}}<a ng-show="product.contested == 'True'" href="#candidates" ng-click="seats.setUpCandidates($index)"> (see candidates)</a></td>
-
+                                <td>{{product.contested}}</td>
+                            </a>
                             </tr>
                         </tbody>
                     </table>

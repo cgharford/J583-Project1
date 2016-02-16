@@ -166,3 +166,8 @@ $(document).ready(function() {
     }
 
 })(jQuery, window, document);
+
+// $("tr").click(function(){
+//     console.log("hello there");
+//     $(this).addClass("selected").siblings().removeClass("selected");
+// });

@@ -53,23 +53,61 @@
         element = store.products[index];
 
         html += '<section id="pinBoot">';
+
+        // First make a box for the senator himself
+        if (element.contested == "False") {
+            html += '<article class="white-panel">';
+            if (element.party == "Republican") {
+                html += '<div class="rep-border">';
+            }
+            else {
+                html += '<div class="dem-border">';
+            }
+            if (element.image != null) {
+                html += '<img class="candidate-img" src="' + element.image + '">'
+            }
+            html += '<div class="name">' + element.currentSenator + '</div>';
+            html += '<div class="party">' + element.party + ' Senator</div>';
+            html += '</div>';
+            html += '</article>';
+        }
+
+        // Next iterate through the candidates
         $.each(element.candidates, function(i, data){
             html += '<article class="white-panel">';
+            if (data.party == "Republican") {
+                html += '<div class="rep-border">';
+            }
+            else {
+                html += '<div class="dem-border">';
+            }
             if (data.image != null) {
                 html += '<img class="candidate-img" src="' + data.image + '">'
             }
             html += '<div class="name">' + data.name + '</div>';
-            html += '<div class="party">' + data.party + '</div>';
+            html += '<div class="party">' + data.party + ' Candidate</div>';
             if (data.bio != null) {
                 html += '<div class="bio">' + data.bio + '</div>';
             }
             if (data.platformPoints != null) {
-                $.each(data.platformPoints, function(j, point){
-                    $.each(point, function(k, points){
-                        html += '<div class="platform-intro">'+ points + '</div>';
+                $.each(data.platformPoints, function(j, points){
+                    $.each(points, function(k, point){
+                        html += '<li class="platform-points">'+ point + '</li>';
                     })
                 })
             }
+            if (data.sources != null) {
+                html += '<br>';
+                $.each(data.sources, function(j, sources){
+                    var counter = "I";
+                    $.each(sources, function(k, source){
+                        html += '<a class="sources" href="'+ source + '">Source '+ counter +'</a>';
+                        html += '<br>';
+                        counter+="I";
+                    })
+                })
+            }
+            html += '</div>';
             html += '</article>';
         })
         html += "</section>"
