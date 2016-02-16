@@ -2,7 +2,7 @@
 
   var app = angular.module('senate', []);
 
-  app.controller('TableCtrl', [ '$http', function($http){
+  app.controller('SenateCtrl', [ '$scope', '$http', function($scope, $http){
     var store = this;
     this.sortReverse  = false;
     store.products = [];
@@ -10,7 +10,7 @@
       store.products = data;
     });
 
-    this.setColor = function(party) {
+    $scope.setColor = function(party) {
         console.log(party);
     }
 
@@ -216,16 +216,12 @@ $(document).ready(function() {
 });
 
 $('#map').on('usmapclick', function(event, data) {
-  // Output the abbreviation of the state name to the console
   console.log(data.name);
 
-  var scope = angular.element(document.getElementById('TableCtrl')).scope();
+  console.log(angular.element(document.getElementById('SenateCtrl')).scope());
 
-  scope.$apply(function () {
-        scope.setColor("yo");
-  });
+  angular.element(document.getElementById('SenateCtrl')).scope().setColor("yo");
 });
-
 
 $( window ).resize(function() {
     $('#pinBoot').pinterest_grid({
