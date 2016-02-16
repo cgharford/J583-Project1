@@ -11,15 +11,17 @@
 
   <script type="text/javascript" src="js/angular.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="js/raphael.js"></script>
   <script type="text/javascript" src="js/jquery.usmap.js"></script>
+
 </head>
     <body ng-app="senate">
 
         <div class="row header">
             <div class="row header-stripe"></div>
             <h1 id="header-title">US Senate Dashboard</h1>
+            <div class="row header-stripe2"></div>
         </div>
 
         <div id="intro">
@@ -28,12 +30,13 @@
             more about the senators and candidates.
         </div>
 
-        <div id="content-container" class="col-lg-10 col-lg-offset-1" ng-controller="TabsCtrl as tab">
 
-            <span ng-click="showTab1=false; tab.changeTab(1)" class="active-tab tab">Table</span>
-            <span ng-click="showTab1=true; tab.changeTab(2)" class="inactive-tab tab">Map</span>
+        <div id="content-container" class="col-lg-10 col-lg-offset-1 row">
 
-            <div ng-hide="showTab1" class="content" id="tab1" ng-controller="TableCtrl as seats">
+            <a href=""><span ng-click="showTab1=false" onclick="changeTab(1)" class="active-tab tab" id="tab1">Table</span></a>
+            <a href=""><span ng-click="showTab1=true" onclick="changeTab(2)" class="inactive-tab tab" id="tab2">Map</span></a>
+
+            <div ng-hide="showTab1" class="content" ng-controller="TableCtrl as seats" >
 
                 <div class="container-1">
                     <span class="explanation">
@@ -41,32 +44,45 @@
                         Sort the table by clicking on the table headings.
                     </span>
                     <span class="icon"><i class="fa fa-search"></i></span>
-                    <input ng-model="name" placeholder="Search" class="search" />
+                    <input ng-model="search" placeholder="Search" class="search" />
+                </div>
+                <div style="overflow:scroll; height:200px;">
+                    <table class="table table-responsive" style="border: solid white;">
+                        <thead>
+                            <tr>
+                                <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
+                                <th><a href="#" ng-click="seats.sort('State')">State</a></th>
+                                <th><a href="#" ng-click="seats.sort('currentSenator')">Senator</a></th>
+                                <th><a href="#" ng-click="seats.sort('party')">Party</a></th>
+                                <th><a href="#" ng-click="seats.sort('contested')">Contested</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="product in seats.products | filter: search | orderBy: seats.sort:seats.direction"
+                            ng-class="product.party == 'Republican' ? 'republican-row': 'democratic-row'"
+                            ng-click="seats.showCandidates">
+                                <td>{{product.id}}</td>
+                                <td>{{product.State}}</td>
+                                <td>{{product.currentSenator}}</td>
+                                <td>{{product.party}}</td>
+                                <td>{{product.contested}}<a ng-show="product.contested == 'True'" href="#candidates" ng-click="seats.setUpCandidates($index)"> (see candidates)</a></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div id="candidates"></div>
+                    </div>
                 </div>
 
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Seat No.</th>
-                            <th>State</th>
-                            <th>Senator</th>
-                            <th>Party</th>
-                            <th>Contested</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr ng-repeat="product in seats.products">
-                            <td>{{product.id}}</td>
-                            <td>{{product.State}}</td>
-                            <td>{{product.currentSenator}}</td>
-                            <td>{{product.party}}</td>
-                            <td>{{product.contested}}</td>
-                        </tr>
-                    </tbody>
-                </table>
+
+                <script type="text/javascript" src="js/jqueryFunctionality.js"></script>
             </div>
 
-            <div ng-show="showTab1" class="content" id="tab2">
+            <div ng-show="showTab1" class="content">
                 <div id="map"></div>
             </div>
 

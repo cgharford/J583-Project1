@@ -5,7 +5,7 @@
 		"currentSenator": "Richard Shelby",
         "party":"Republican",
         "gender": "M",
-		"contested": true,
+		"contested": "True",
 		"candidates":
 			[
 				{
@@ -36,7 +36,7 @@
                     "party":"Republican",
                     "bio": "Born and raised in Elgin, Illinois, 42 year-old Marcus Bowman resides in Daphne, Alabama. He attended Iowa State University and has lead a small business owner and has experience with legal matters in Washington, D.C. He was raised with Christian and conservative values and those opinions guide his political decisions. ",
                     "gender": "M",
-                    "image": "img/candidates/Richard-Shelby.jpg",
+                    "image": "img/candidates/Marcus-Bowman.jpg",
                     "platformPoints":
                         [
                             {
@@ -174,7 +174,7 @@
         "id": 2,
 		"currentSenator": "Jeff Sessions",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -182,7 +182,7 @@
         "id": 3,
 		"currentSenator": "Lisa Murkowski",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "F",
 		"candidates":
 			[
@@ -261,7 +261,7 @@
         "id": 4,
 		"currentSenator": "Dan Sullivan",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -269,7 +269,7 @@
         "id": 5,
 		"currentSenator": "John McCain",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -278,7 +278,7 @@
                     "party":"Democratic",
                     "bio": "Clark served in the army and the Arizona National Guard. Now, he works as a music teacher and is a progressive activist.",
                     "gender": "M",
-                    "image": "img/candidates/Lennie-Clark.jpg",
+                    "image": "img/candidates/Lennie-Clark.png",
                     "platformPoints":
                         [
                             {
@@ -322,7 +322,7 @@
                     "party":"Republican",
                     "bio": "McCain served in the US Navy from 1954 to 1981. He began his political career in 1982 when he joined the House of Representatives and switched to the Senate in 1986. The current senator is best known for his candidicy in the 2008 presidential election.",
                     "gender": "M",
-                    "image": "img/candidates/John-McCain.png",
+                    "image": "img/candidates/John-McCain.jpg",
                     "platformPoints":
                         [
                             {
@@ -435,7 +435,7 @@
         "id": 6,
 		"currentSenator": "Jeff Flake",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -443,7 +443,7 @@
         "id": 7,
 		"currentSenator": "John Boozman",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -545,7 +545,7 @@
         "id": 8,
 		"currentSenator": "Tom Cotton",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -553,7 +553,7 @@
         "id": 9,
 		"currentSenator": "Dianne Feinstein",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -561,7 +561,7 @@
         "id": 10,
 		"currentSenator": "Barbara Boxer",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "F",
 		"candidates":
 			[
@@ -662,7 +662,7 @@
         "id": 11,
 		"currentSenator": "Michael Bennet",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -896,7 +896,7 @@
         "id": 12,
 		"currentSenator": "Cory Gardner",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -904,7 +904,7 @@
         "id": 13,
 		"currentSenator": "Richard Blumenthal",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -960,7 +960,7 @@
         "id": 14,
 		"currentSenator": "Chris Murphy",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -968,7 +968,7 @@
         "id": 15,
 		"currentSenator": "Tom Carper",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -976,7 +976,7 @@
         "id": 16,
 		"currentSenator": "Chris Coons",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -984,7 +984,7 @@
         "id": 17,
 		"currentSenator": "Bill Nelson",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -992,7 +992,7 @@
         "id": 18,
 		"currentSenator": "Marco Rubio",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1152,7 +1152,7 @@
         "id": 19,
 		"currentSenator": "Johnny Isakson",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1230,7 +1230,7 @@
         "id": 20,
 		"currentSenator": "David Perdue",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1238,7 +1238,7 @@
         "id": 21,
 		"currentSenator": "Brian Schatz",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1295,7 +1295,7 @@
         "id": 22,
 		"currentSenator": "Mazie Hirono",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -1303,7 +1303,7 @@
         "id": 23,
 		"currentSenator": "Mike Crapo",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1336,7 +1336,7 @@
         "id": 24,
 		"currentSenator": "Jim Risch",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1344,7 +1344,7 @@
         "id": 25,
 		"currentSenator": "Dick Durbin",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1352,7 +1352,7 @@
         "id": 26,
 		"currentSenator": "Mark Kirk",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1473,7 +1473,7 @@
         "id": 27,
 		"currentSenator": "Dan Coats",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1550,7 +1550,7 @@
         "id": 28,
 		"currentSenator": "Joe Donnelly",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1558,7 +1558,7 @@
         "id": 29,
 		"currentSenator": "Chuck Grassley",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1658,7 +1658,7 @@
         "id": 30,
 		"currentSenator": "Joni Ernst",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -1666,7 +1666,7 @@
         "id": 31,
 		"currentSenator": "Pat Roberts",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1674,7 +1674,7 @@
         "id": 32,
 		"currentSenator": "Jerry Moran",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1730,7 +1730,7 @@
         "id": 33,
 		"currentSenator": "Mitch McConnell",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1738,7 +1738,7 @@
         "id": 34,
 		"currentSenator": "Rand Paul",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
 		"candidates":
 			[
@@ -1835,7 +1835,7 @@
         "id": 35,
 		"currentSenator": "David Vitter",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -1868,7 +1868,7 @@
         "id": 36,
 		"currentSenator": "Bill Cassidy",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1876,7 +1876,7 @@
         "id": 37,
 		"currentSenator": "Susan Collins",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -1884,7 +1884,7 @@
         "id": 38,
 		"currentSenator": "Angus King",
         "party":"Independent",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1892,7 +1892,7 @@
         "id": 39,
 		"currentSenator": "Barbara Mikulski",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "F",
         "candidates":
 			[
@@ -1926,7 +1926,7 @@
         "id": 40,
 		"currentSenator": "Ben Cardin",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1934,7 +1934,7 @@
         "id": 41,
 		"currentSenator": "Elizabeth Warren",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -1942,7 +1942,7 @@
         "id": 42,
 		"currentSenator": "Ed Markey",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1950,7 +1950,7 @@
         "id": 43,
 		"currentSenator": "Debbie Stabenow",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -1958,7 +1958,7 @@
         "id": 44,
 		"currentSenator": "Gary Peters",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1966,7 +1966,7 @@
         "id": 45,
 		"currentSenator": "Amy Klobuchar",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -1974,7 +1974,7 @@
         "id": 46,
 		"currentSenator": "Al Franken",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1982,7 +1982,7 @@
         "id": 47,
 		"currentSenator": "Thad Cochran",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1990,7 +1990,7 @@
         "id": 48,
 		"currentSenator": "Roger Wicker",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -1998,7 +1998,7 @@
         "id": 49,
 		"currentSenator": "Claire McCaskill",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2006,7 +2006,7 @@
         "id": 50,
 		"currentSenator": "Roy Blunt",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2040,7 +2040,7 @@
         "id": 51,
 		"currentSenator": "Jon Tester",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2048,7 +2048,7 @@
         "id": 52,
 		"currentSenator": "Steve Daines",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2056,7 +2056,7 @@
         "id": 53,
 		"currentSenator": "Deb Fischer",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2064,7 +2064,7 @@
         "id": 54,
 		"currentSenator": "Ben Sasse",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2072,7 +2072,7 @@
         "id": 55,
 		"currentSenator": "Harry Reid",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2106,7 +2106,7 @@
         "id": 56,
 		"currentSenator": "Dean Heller",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2114,7 +2114,7 @@
         "id": 57,
 		"currentSenator": "Jeanne Shaheen",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2122,7 +2122,7 @@
         "id": 58,
 		"currentSenator": "Kelly Ayotte",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "F",
         "candidates":
 			[
@@ -2156,7 +2156,7 @@
         "id": 59,
 		"currentSenator": "Bob Menendez",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2164,7 +2164,7 @@
         "id": 60,
 		"currentSenator": "Cory Booker",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2172,7 +2172,7 @@
         "id": 61,
 		"currentSenator": "Tom Udall",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2180,7 +2180,7 @@
         "id": 62,
 		"currentSenator": "Martin Heinrich",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2188,7 +2188,7 @@
         "id": 63,
 		"currentSenator": "Chuck Schumer",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2222,7 +2222,7 @@
         "id": 64,
 		"currentSenator": "Kirsten Gillibrand",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2230,7 +2230,7 @@
         "id": 65,
 		"currentSenator": "Richard Burr",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M",
         "candidates":
 			[
@@ -2264,7 +2264,7 @@
         "id": 66,
 		"currentSenator": "Thom Tillis",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2272,7 +2272,7 @@
         "id": 67,
 		"currentSenator": "John Hoeven",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2305,7 +2305,7 @@
         "id": 68,
 		"currentSenator": "Heidi Heitkamp",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2313,7 +2313,7 @@
         "id": 69,
 		"currentSenator": "Sherrod Brown",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2321,7 +2321,7 @@
         "id": 70,
 		"currentSenator": "Rob Portman",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2354,7 +2354,7 @@
         "id": 71,
 		"currentSenator": "Jim Inhofe",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2362,7 +2362,7 @@
         "id": 72,
 		"currentSenator": "James Lankford",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2396,7 +2396,7 @@
         "id": 73,
 		"currentSenator": "Ron Wyden",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2430,7 +2430,7 @@
         "id": 74,
 		"currentSenator": "Jeff Merkley",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2438,7 +2438,7 @@
         "id": 75,
 		"currentSenator": "Bob Casey, Jr.",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2446,7 +2446,7 @@
         "id": 76,
 		"currentSenator": "Pat Toomey",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2480,7 +2480,7 @@
         "id": 77,
 		"currentSenator": "Jack Reed",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2488,7 +2488,7 @@
         "id": 78,
 		"currentSenator": "Sheldon Whitehouse",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2496,7 +2496,7 @@
         "id": 79,
 		"currentSenator": "Lindsey Graham",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2504,7 +2504,7 @@
         "id": 80,
 		"currentSenator": "Tim Scott",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2537,7 +2537,7 @@
         "id": 81,
 		"currentSenator": "John Thune",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2570,7 +2570,7 @@
         "id": 82,
 		"currentSenator": "Mike Rounds",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2578,7 +2578,7 @@
         "id": 83,
 		"currentSenator": "Lamar Alexander",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2586,7 +2586,7 @@
         "id": 84,
 		"currentSenator": "Bob Corker",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2594,7 +2594,7 @@
         "id": 85,
 		"currentSenator": "John Cornyn",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2602,7 +2602,7 @@
         "id": 86,
 		"currentSenator": "Ted Cruz",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2610,7 +2610,7 @@
         "id": 87,
 		"currentSenator": "Orrin Hatch",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2618,7 +2618,7 @@
         "id": 88,
 		"currentSenator": "Mike Lee",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2652,7 +2652,7 @@
         "id": 89,
 		"currentSenator": "Patrick Leahy",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2685,7 +2685,7 @@
         "id": 90,
 		"currentSenator": "Bernie Sanders",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2693,7 +2693,7 @@
         "id": 91,
 		"currentSenator": "Mark Warner",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2701,7 +2701,7 @@
         "id": 92,
 		"currentSenator": "Tim Kaine",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2709,7 +2709,7 @@
         "id": 93,
 		"currentSenator": "Patty Murray",
         "party":"Democratic",
-		"contested": true,
+		"contested": "True",
         "gender": "F",
         "candidates":
 			[
@@ -2743,7 +2743,7 @@
         "id": 94,
 		"currentSenator": "Maria Cantwell",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2751,7 +2751,7 @@
         "id": 95,
 		"currentSenator": "Joe Manchin",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2759,7 +2759,7 @@
         "id": 96,
 		"currentSenator": "Shelley Moore Capito",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2767,7 +2767,7 @@
         "id": 97,
 		"currentSenator": "Ron Johnson",
         "party":"Republican",
-		"contested": true,
+		"contested": "True",
         "gender": "M",
         "candidates":
 			[
@@ -2801,7 +2801,7 @@
         "id": 98,
 		"currentSenator": "Tammy Baldwin",
         "party":"Democratic",
-		"contested": false,
+		"contested": "False",
         "gender": "F"
 	},
     {
@@ -2809,7 +2809,7 @@
         "id": 99,
 		"currentSenator": "Mike Enzi",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	},
     {
@@ -2817,7 +2817,7 @@
         "id": 100,
 		"currentSenator": "John Barrasso",
         "party":"Republican",
-		"contested": false,
+		"contested": "False",
         "gender": "M"
 	}
 ]
