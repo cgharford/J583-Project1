@@ -1,3 +1,62 @@
 $(document).ready(function() {
-    $('#map').usmap({});
+    // $('#map').usmap({});
+
+    $('#map').usmap({
+        stateHoverStyles: {fill: '#ddd'},
+        stateSpecificStyles: {
+            'AL': {fill: '#990000'},
+            'AK': {fill: '#990000'},
+            'AZ': {fill: '#990000'},
+            'AL': {fill: '#990000'},
+            'AR': {fill: '#990000'},
+            'CA': {fill: '#004A80'},
+            'CO': {fill: '#4d4d4d'},
+            'CT': {fill: '#004A80'},
+            'DE': {fill: '#004A80'},
+            'FL': {fill: '#4d4d4d'},
+            'GA': {fill: '#990000'},
+            'HI': {fill: '#004A80'},
+            'ID': {fill: '#990000'},
+            'IL': {fill: '#4d4d4d'},
+            'IN': {fill: '#4d4d4d'},
+            'IA': {fill: '#004A80'},
+            'KS': {fill: '#4d4d4d'},
+            'KY': {fill: '#004A80'},
+            'LA': {fill: '#004A80'},
+            'ME': {fill: '#4d4d4d'},
+            'MD': {fill: '#004A80'},
+            'MA': {fill: '#004A80'},
+            'MI': {fill: '#004A80'},
+            'MN': {fill: '#4d4d4d'},
+            'MS': {fill: '#990000'},
+            'MO': {fill: '#4d4d4d'},
+            'MT': {fill: '#4d4d4d'},
+            'NE': {fill: '#990000'},
+            'NV': {fill: '#4d4d4d'},
+            'NH': {fill: '#4d4d4d'},
+            'NJ': {fill: '#004A80'},
+            'NM': {fill: '#004A80'},
+            'NY': {fill: '#004A80'},
+            'NC': {fill: '#990000'},
+            'ND': {fill: '#4d4d4d'},
+            'OH': {fill: '#4d4d4d'},
+            'OK': {fill: '#990000'},
+            'OR': {fill: '#004A80'},
+            'PA': {fill: '#4d4d4d'},
+            'RI': {fill: '#004A80'},
+            'SC': {fill: '#990000'},
+            'SD': {fill: '#990000'},
+            'TN': {fill: '#990000'},
+            'TX': {fill: '#990000'},
+            'UT': {fill: '#990000'},
+            'VT': {fill: '#004A80'},
+            'VA': {fill: '#004A80'},
+            'WA': {fill: '#004A80'},
+            'WV': {fill: '#4d4d4d'},
+            'WI': {fill: '#4d4d4d'},
+            'WY': {fill: '#990000'}
+        }
+    });
+
+
 });

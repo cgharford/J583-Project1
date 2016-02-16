@@ -38,6 +38,14 @@ p {
     padding: 1em 0em;
 }
 
+.container {
+    background-color: white;
+    padding: .5em 2em;
+    margin: -10px 0em;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
 .tab {
     padding: .25em 1em 0em 1em;
     border-top-left-radius: .5em;
@@ -56,8 +64,12 @@ p {
 }
 
 .explanation {
-    vertical-align: text-top;
+    /*vertical-align: text-top;*/
     font-size: 15px;
+}
+
+.box {
+    float: right;
 }
 
 .container-1{
@@ -101,8 +113,8 @@ p {
 
 .container-1 .icon{
     position: absolute;
-    top: 20px;
-    right: 170px;
+    top: -7px;
+    right: 185px;
     margin-left: 17px;
     margin-top: 17px;
     z-index: 1;
@@ -245,9 +257,31 @@ img {
 
 /* Styles for responsive design */
 @media screen and (max-width: 860px) {
+    #content-container {
+        padding: 1em 2em;
+    }
+
+    .explanation {
+        font-size: 10px;
+        text-align: center;
+        padding: 0em 0em 2.5em 0em;
+    }
+
+    .box {
+        float: none;
+        margin: auto;
+        width: 300px;
+        height: 50px;
+        padding: 1em 1em 1.5em 1em;
+    }
+
+    .container-1 .icon {
+        top: 45px;
+    }
+
     #map {
-        width: 100%;
-        height: 100%;
-        margin-left: 10%;
+        width: 300px;
+        height: 200px;
+        margin-left: 5%;
     }
 }
