@@ -1206,7 +1206,7 @@
                     "party":"Republican",
                     "bio": "Isakson was born in Atlanta, Georgia and attended University of Georgia. He began his own real estate firm and served as president for 22 years. The incumbent also served in the House of Representatives before becoming senator.",
                     "gender": "M",
-                    "image": "img/candidates/Johnny-Isakson.png",
+                    "image": "img/candidates/Johnny-Isakson.jpg",
                     "platformPoints":
                         [
                             {
@@ -1567,7 +1567,7 @@
                     "party": "Republican",
                     "bio": "Grassley was born in New Hartford, Iowa and attended the University of Northern Iowa and the University of Iowa. Before politics, he worked as a farmer, sheet metal shearer, and assembly line worker. He began serving in the House of Representatives in 1974 and was elected to Senate in 1980. ",
                     "gender": "M",
-                    "image": "img/candidates/.jpg",
+                    "image": "img/candidates/Chuck-Grassley.jpg",
                     "platformPoints":
                         [
                             {
@@ -1770,12 +1770,6 @@
                     "bio": "Houlihan is a blogger who is actively involved and interested in politics. He has a question and answer section where he discusses current political issues",
                     "gender": "M",
                     "image": "img/candidates/Rory-Houlihan.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Houlihan has not yet made his platform points available"
-                            }
-                        ],
                     "sources" :
                         [
                             {
@@ -1812,14 +1806,6 @@
                     "bio": "",
                     "gender": "M",
                     "image": "img/candidates/Ron-Leach.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "",
-                                "point2": "",
-                                "point3": ""
-                            }
-                        ],
                     "sources" :
                         [
                             {
@@ -2081,7 +2067,7 @@
                     "party": "Democratic",
                     "bio": "Catherine was born in Las Vegas, Nevada and attended the University of Nevada and Gonzaga University School of Law. She worked as a civil attorney and a prosecuter before serving as Nevada Attorney General. Catherine resides in Las Vegas with her husband.",
                     "gender": "F",
-                    "image": "img/candidates/Catherine Cortez Masto.png",
+                    "image": "img/candidates/Catherine-Cortez-Masto.png",
                     "platformPoints":
                         [
                             {

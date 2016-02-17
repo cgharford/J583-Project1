@@ -15,13 +15,7 @@ var senators = [];
       senators = data;
     });
 
-    $scope.setColor = function(party) {
-        console.log(party);
-    }
-
     this.show = function(index){
-        console.log($("child" + index));
-        console.log(document.getElementById("child" + index).style.display);
         document.getElementById("child" + index).style.display = "block";
         $("child" + index).show();
     }
@@ -54,9 +48,6 @@ var senators = [];
     this.setUpCandidatesGrid = function(index) {
         formatCandidateInfo([index]);
     };
-    this.setUpCandidatesMap = function(indicies) {
-        console.log(indicies);
-    }
   }]);
 })();
 
@@ -74,6 +65,8 @@ changeTab = function(tab){
         document.getElementById("tab1").style.backgroundColor = "#eee";
         document.getElementById("tab1").style.border = "solid #eee";
     }
+
+    $("#candidates").text("");
 }
 
 formatCandidateInfo = function(indexArr) {
@@ -167,6 +160,62 @@ $( window ).resize(function() {
         margin_bottom: 50,
         single_column_breakpoint: 700
     });
+
+    $('#map').usmap({
+        stateHoverStyles: {fill: '#ddd'},
+        stateSpecificStyles: {
+            'AL': {fill: '#990000'},
+            'AK': {fill: '#990000'},
+            'AZ': {fill: '#990000'},
+            'AR': {fill: '#990000'},
+            'CA': {fill: '#004A80'},
+            'CO': {fill: '#4d4d4d'},
+            'CT': {fill: '#004A80'},
+            'DE': {fill: '#004A80'},
+            'FL': {fill: '#4d4d4d'},
+            'GA': {fill: '#990000'},
+            'HI': {fill: '#004A80'},
+            'ID': {fill: '#990000'},
+            'IL': {fill: '#4d4d4d'},
+            'IN': {fill: '#4d4d4d'},
+            'IA': {fill: '#004A80'},
+            'KS': {fill: '#4d4d4d'},
+            'KY': {fill: '#004A80'},
+            'LA': {fill: '#004A80'},
+            'ME': {fill: '#4d4d4d'},
+            'MD': {fill: '#004A80'},
+            'MA': {fill: '#004A80'},
+            'MI': {fill: '#004A80'},
+            'MN': {fill: '#4d4d4d'},
+            'MS': {fill: '#990000'},
+            'MO': {fill: '#4d4d4d'},
+            'MT': {fill: '#4d4d4d'},
+            'NE': {fill: '#990000'},
+            'NV': {fill: '#4d4d4d'},
+            'NH': {fill: '#4d4d4d'},
+            'NJ': {fill: '#004A80'},
+            'NM': {fill: '#004A80'},
+            'NY': {fill: '#004A80'},
+            'NC': {fill: '#990000'},
+            'ND': {fill: '#4d4d4d'},
+            'OH': {fill: '#4d4d4d'},
+            'OK': {fill: '#990000'},
+            'OR': {fill: '#004A80'},
+            'PA': {fill: '#4d4d4d'},
+            'RI': {fill: '#004A80'},
+            'SC': {fill: '#990000'},
+            'SD': {fill: '#990000'},
+            'TN': {fill: '#990000'},
+            'TX': {fill: '#990000'},
+            'UT': {fill: '#990000'},
+            'VT': {fill: '#004A80'},
+            'VA': {fill: '#004A80'},
+            'WA': {fill: '#004A80'},
+            'WV': {fill: '#4d4d4d'},
+            'WI': {fill: '#4d4d4d'},
+            'WY': {fill: '#990000'}
+        }
+    });
 });
 
 $(document).ready(function() {
@@ -236,7 +285,6 @@ $(document).ready(function() {
 });
 
 $('#map').on('usmapclick', function(event, data) {
-    console.log(data.name);
     indexArr = [];
     switch(data.name) {
         case "AL":
@@ -347,7 +395,7 @@ $('#map').on('usmapclick', function(event, data) {
         case "OK":
             indexArr = [70, 71];
             break;
-        case "OK":
+        case "OR":
             indexArr = [72, 73];
             break;
         case "PA":
