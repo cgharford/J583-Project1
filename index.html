@@ -31,7 +31,7 @@
             <div ng-hide="showTab1" class="content" >
                 <div class="container-1 row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 explanation">
-                        If a seat is contested, click on the row to view the candidates.<br>
+                        Click on the row to view the contested and uncontested seats.<br>
                         Sort the table by clicking on the table headings.
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 box">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div style="overflow:scroll; height:200px;">
-                    <table class="table table-responsive" style="border: solid white; color: white;">
+                    <table class="table table-responsive" id="table">
                         <thead>
                             <tr>
                                 <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
@@ -70,8 +70,7 @@
             <div ng-show="showTab1" class="content">
                 <br>
                 <div class="row explanation" style="text-align: center;">
-                    If a seat is contested, click on the row to view the candidates.<br>
-                    Sort the table by clicking on the table headings.
+                    Click on a state to view the senators and candidates by area.<br>
                 </div>
                 <div id="test">
                     <div id='map' class='map' style='width: 800px; height: 500px;'></div>

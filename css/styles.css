@@ -139,6 +139,11 @@ input:focus {
     overflow: auto;
 }
 
+#table {
+    border: solid white;
+    color: white;
+}
+
 tr:hover, tr.selected {
     background-color: #666666;
 }
@@ -278,13 +283,19 @@ img {
     .box {
         float: none;
         margin: auto;
-        width: 300px;
+        width: 225px;
         height: 50px;
-        padding: 1em 1em 1.5em 1em;
+        padding: 1em 1em 1em 1em;
     }
 
     .container-1 .icon {
         top: 45px;
+    }
+
+    #table {
+        border: solid white;
+        color: white;
+        font-size: 10px;
     }
 
     .candidate-img {
