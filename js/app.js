@@ -1,4 +1,5 @@
 var senators = [];
+var counter = 0;
 
 (function() {
 
@@ -154,15 +155,15 @@ createCandidates = function(index) {
 
 $(document).ready(function() {
     resizeCandidates();
-    // resizeMap();
+    resizeMap();
     createMap();
-    turnMapOn();
+    // turnMapOn();
 });
 
 $(window).resize(function() {
     resizeCandidates();
-    // resizeMap();
-    // createMap();
+    resizeMap();
+    createMap();
     // turnMapOn();
 });
 
@@ -231,14 +232,172 @@ createMap = function() {
             'WV': {fill: '#4d4d4d'},
             'WI': {fill: '#4d4d4d'},
             'WY': {fill: '#990000'}
+        },
+        click: function(event, data) {
+            console.log(data.name);
+
+            indexArr = [];
+            switch(data.name) {
+                case "AL":
+                    indexArr = [0, 1];
+                    break;
+                case "AK":
+                    indexArr = [2, 3];
+                    break;
+                case "AZ":
+                    indexArr = [4, 5];
+                    break;
+                case "AR":
+                    indexArr = [6, 7];
+                    break;
+                case "CA":
+                    indexArr = [8, 9];
+                    break;
+                case "CO":
+                    indexArr = [10, 11];
+                    break;
+                case "CT":
+                    indexArr = [12, 13];
+                    break;
+                case "DE":
+                    indexArr = [14, 15];
+                    break;
+                case "FL":
+                    indexArr = [16, 17];
+                    break;
+                case "GA":
+                    indexArr = [18, 19];
+                    break;
+                case "HI":
+                    indexArr = [20, 21];
+                    break;
+                case "ID":
+                    indexArr = [22, 23];
+                    break;
+                case "IL":
+                    indexArr = [24, 25];
+                    break;
+                case "IN":
+                    indexArr = [26, 27];
+                    break;
+                case "IA":
+                    indexArr = [28, 29];
+                    break;
+                case "KS":
+                    indexArr = [30, 31];
+                    break;
+                case "KY":
+                    indexArr = [32, 33];
+                    break;
+                case "LA":
+                    indexArr = [34, 35];
+                    break;
+                case "ME":
+                    indexArr = [36, 37];
+                    break;
+                case "MD":
+                    indexArr = [38, 39];
+                    break;
+                case "MA":
+                    indexArr = [40, 41];
+                    break;
+                case "MI":
+                    indexArr = [42, 43];
+                    break;
+                case "MN":
+                    indexArr = [44, 45];
+                    break;
+                case "MS":
+                    indexArr = [46, 47];
+                    break;
+                case "MO":
+                    indexArr = [48, 49];
+                    break;
+                case "MT":
+                    indexArr = [50, 51];
+                    break;
+                case "NE":
+                    indexArr = [52, 53];
+                    break;
+                case "NV":
+                    indexArr = [54, 55];
+                    break;
+                case "NH":
+                    indexArr = [56, 57];
+                    break;
+                case "NJ":
+                    indexArr = [58, 59];
+                    break;
+                case "NM":
+                    indexArr = [60, 61];
+                    break;
+                case "NY":
+                    indexArr = [62, 63];
+                    break;
+                case "NC":
+                    indexArr = [64, 65];
+                    break;
+                case "ND":
+                    indexArr = [66, 67];
+                    break;
+                case "OH":
+                    indexArr = [68, 69];
+                    break;
+                case "OK":
+                    indexArr = [70, 71];
+                    break;
+                case "OR":
+                    indexArr = [72, 73];
+                    break;
+                case "PA":
+                    indexArr = [74, 75];
+                    break;
+                case "RI":
+                    indexArr = [76, 77];
+                    break;
+                case "SC":
+                    indexArr = [78, 79];
+                    break;
+                case "SD":
+                    indexArr = [80, 81];
+                    break;
+                case "TN":
+                    indexArr = [82, 83];
+                    break;
+                case "TX":
+                    indexArr = [84, 85];
+                    break;
+                case "UT":
+                    indexArr = [86, 87];
+                    break;
+                case "VT":
+                    indexArr = [88, 89];
+                    break;
+                case "VA":
+                    indexArr = [90, 91];
+                    break;
+                case "WA":
+                    indexArr = [92, 93];
+                    break;
+                case "WV":
+                    indexArr = [94, 95];
+                    break;
+                case "WI":
+                    indexArr = [96, 97];
+                    break;
+                case "WY":
+                    indexArr = [98, 99];
+                    break;
+            }
+            formatCandidateInfo(indexArr);
         }
     });
 }
 
 turnMapOn = function() {
     $('#map').on('usmapclick', function(event, data) {
-        console.log("test");
-        console.log(data.name);
+        // console.log("test");
+        // console.log(data.name);
         indexArr = [];
         switch(data.name) {
             case "AL":
@@ -397,6 +556,8 @@ turnMapOn = function() {
 }
 
 resizeMap = function() {
+    counter++;
+    console.log(counter);
     var width = window.innerWidth;
 
     if (width < 300) {

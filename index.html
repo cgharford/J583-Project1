@@ -39,7 +39,7 @@
                         <input ng-model="search" placeholder="Search" class="search box" />
                     </div>
                 </div>
-                <div style="overflow:scroll; height:200px;">
+                <div id="table-container">
                     <table class="table table-responsive" id="table">
                         <thead>
                             <tr>
@@ -69,11 +69,13 @@
             </div>
             <div ng-show="showTab1" class="content">
                 <br>
-                <div class="row explanation" style="text-align: center;">
+                <div class="row explanation" id="map-explanation">
                     Click on a state to view the senators and candidates by area.<br>
                 </div>
-                <div id="test">
-                    <div id='map' class='map' style='width: 800px; height: 500px;'></div>
+                <div id="map-container">
+                    <div id="map" class="map" style="width: 500px; height: 500px;"></div>
+                    <!-- <svg id="map" class="map" viewbox="0 0 500 500" width="500" height="500" preserveAspectRatio='xMidYMin slice'></svg> -->
+                    <!-- <svg id="map" viewBox="0 0 60 55" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 92%; height: 50px; overflow: visible"></svg> -->
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 container">
@@ -81,9 +83,6 @@
                     <div id="candidates"></div>
                 </div>
             </div>
-            <!-- <div id="link-to-top" class="row">
-                <a href="#content-container">Back to top</a>
-            </div> -->
         </div>
         <script type="text/javascript" src="js/app.js"></script>
     </body>
