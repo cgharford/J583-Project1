@@ -1,3 +1,5 @@
+var senators = [];
+
 (function() {
 
   var app = angular.module('senate', []);
@@ -6,8 +8,11 @@
     var store = this;
     this.sortReverse  = false;
     store.products = [];
+
+    // Get external json file via ajax
     $http.get('/senate.json').success(function(data){
       store.products = data;
+      senators = data;
     });
 
     $scope.setColor = function(party) {
@@ -44,91 +49,14 @@
               }
             }
           }
-
-        this.players = items;
+          senators = items;
     };
-
     this.setUpCandidatesGrid = function(index) {
-        html = ""
-        element = store.products[index];
-
-        html += '<section id="pinBoot">';
-
-        // First make a box for the senator himself
-        if (element.contested == "False") {
-            html += '<article class="white-panel">';
-            if (element.party == "Republican") {
-                html += '<div class="rep-border">';
-            }
-            else {
-                html += '<div class="dem-border">';
-            }
-            if (element.image != null) {
-                html += '<img class="candidate-img" src="' + element.image + '">'
-            }
-            html += '<div class="name">' + element.currentSenator + '</div>';
-            html += '<div class="party">' + element.party + ' Senator</div>';
-            html += '</div>';
-            html += '</article>';
-        }
-
-        // Next iterate through the candidates
-        $.each(element.candidates, function(i, data){
-            html += '<article class="white-panel">';
-            if (data.party == "Republican") {
-                html += '<div class="rep-border">';
-            }
-            else {
-                html += '<div class="dem-border">';
-            }
-            if (data.image != null) {
-                html += '<img class="candidate-img" src="' + data.image + '">'
-            }
-            html += '<div class="name">' + data.name + '</div>';
-            html += '<div class="party">' + data.party + ' Candidate</div>';
-            if (data.bio != null) {
-                html += '<div class="bio">' + data.bio + '</div>';
-            }
-            if (data.platformPoints != null) {
-                $.each(data.platformPoints, function(j, points){
-                    $.each(points, function(k, point){
-                        html += '<li class="platform-points">'+ point + '</li>';
-                    })
-                })
-            }
-            if (data.sources != null) {
-                html += '<br>';
-                $.each(data.sources, function(j, sources){
-                    var counter = "I";
-                    $.each(sources, function(k, source){
-                        html += '<a class="sources" href="'+ source + '">Source '+ counter +'</a>';
-                        html += '<br>';
-                        counter+="I";
-                    })
-                })
-            }
-            html += '</div>';
-            html += '</article>';
-        })
-        html += "</section>"
-
-        $("#candidates").text("");
-        $("#candidates").append(html);
-
-        $('#pinBoot').pinterest_grid({
-           no_columns: 4,
-           padding_x: 10,
-           padding_y: 10,
-           margin_bottom: 50,
-           single_column_breakpoint: 700
-       });
-
+        formatCandidateInfo([index]);
     };
-
     this.setUpCandidatesMap = function(indicies) {
         console.log(indicies);
     }
-
   }]);
 })();
 
@@ -148,6 +76,99 @@ changeTab = function(tab){
     }
 }
 
+formatCandidateInfo = function(indexArr) {
+    html = ""
+    html += '<section id="pinBoot">';
+    $.each(indexArr, function(i, index){
+        html += createCandidates(index);
+    })
+    html += "</section>"
+
+    $("#candidates").text("");
+    $("#candidates").append(html);
+
+    $('#pinBoot').pinterest_grid({
+       no_columns: 4,
+       padding_x: 10,
+       padding_y: 10,
+       margin_bottom: 50,
+       single_column_breakpoint: 700
+   });
+}
+
+createCandidates = function(index) {
+    html = "";
+    element = senators[index];
+
+    // First make a box for the senator himself
+    if (element.contested == "False") {
+        html += '<article class="white-panel">';
+        if (element.party == "Republican") {
+            html += '<div class="rep-border">';
+        }
+        else {
+            html += '<div class="dem-border">';
+        }
+        if (element.image != null) {
+            html += '<img class="candidate-img" src="' + element.image + '">'
+        }
+        html += '<div class="name">' + element.currentSenator + '</div>';
+        html += '<div class="party">' + element.party + ' Senator</div>';
+        html += '</div>';
+        html += '</article>';
+    }
+
+    // Next iterate through the candidates
+    $.each(element.candidates, function(i, data){
+        html += '<article class="white-panel">';
+        if (data.party == "Republican") {
+            html += '<div class="rep-border">';
+        }
+        else {
+            html += '<div class="dem-border">';
+        }
+        if (data.image != null) {
+            html += '<img class="candidate-img" src="' + data.image + '">'
+        }
+        html += '<div class="name">' + data.name + '</div>';
+        html += '<div class="party">' + data.party + ' Candidate</div>';
+        if (data.bio != null) {
+            html += '<div class="bio">' + data.bio + '</div>';
+        }
+        if (data.platformPoints != null) {
+            $.each(data.platformPoints, function(j, points){
+                $.each(points, function(k, point){
+                    html += '<li class="platform-points">'+ point + '</li>';
+                })
+            })
+        }
+        if (data.sources != null) {
+            html += '<br>';
+            $.each(data.sources, function(j, sources){
+                var counter = "I";
+                $.each(sources, function(k, source){
+                    html += '<a class="sources" href="'+ source + '">Source '+ counter +'</a>';
+                    html += '<br>';
+                    counter+="I";
+                })
+            })
+        }
+        html += '</div>';
+        html += '</article>';
+    })
+    return html;
+}
+
+$( window ).resize(function() {
+    $('#pinBoot').pinterest_grid({
+        no_columns: 4,
+        padding_x: 10,
+        padding_y: 10,
+        margin_bottom: 50,
+        single_column_breakpoint: 700
+    });
+});
+
 $(document).ready(function() {
     $('#pinBoot').pinterest_grid({
         no_columns: 4,
@@ -163,7 +184,6 @@ $(document).ready(function() {
             'AL': {fill: '#990000'},
             'AK': {fill: '#990000'},
             'AZ': {fill: '#990000'},
-            'AL': {fill: '#990000'},
             'AR': {fill: '#990000'},
             'CA': {fill: '#004A80'},
             'CO': {fill: '#4d4d4d'},
@@ -216,21 +236,161 @@ $(document).ready(function() {
 });
 
 $('#map').on('usmapclick', function(event, data) {
-  console.log(data.name);
-
-  console.log(angular.element(document.getElementById('SenateCtrl')).scope());
-
-  angular.element(document.getElementById('SenateCtrl')).scope().setColor("yo");
-});
-
-$( window ).resize(function() {
-    $('#pinBoot').pinterest_grid({
-        no_columns: 4,
-        padding_x: 10,
-        padding_y: 10,
-        margin_bottom: 50,
-        single_column_breakpoint: 700
-    });
+    console.log(data.name);
+    indexArr = [];
+    switch(data.name) {
+        case "AL":
+            indexArr = [0, 1];
+            break;
+        case "AK":
+            indexArr = [2, 3];
+            break;
+        case "AZ":
+            indexArr = [4, 5];
+            break;
+        case "AR":
+            indexArr = [6, 7];
+            break;
+        case "CA":
+            indexArr = [8, 9];
+            break;
+        case "CO":
+            indexArr = [10, 11];
+            break;
+        case "CT":
+            indexArr = [12, 13];
+            break;
+        case "DE":
+            indexArr = [14, 15];
+            break;
+        case "FL":
+            indexArr = [16, 17];
+            break;
+        case "GA":
+            indexArr = [18, 19];
+            break;
+        case "HI":
+            indexArr = [20, 21];
+            break;
+        case "ID":
+            indexArr = [22, 23];
+            break;
+        case "IL":
+            indexArr = [24, 25];
+            break;
+        case "IN":
+            indexArr = [26, 27];
+            break;
+        case "IA":
+            indexArr = [28, 29];
+            break;
+        case "KS":
+            indexArr = [30, 31];
+            break;
+        case "KY":
+            indexArr = [32, 33];
+            break;
+        case "LA":
+            indexArr = [34, 35];
+            break;
+        case "ME":
+            indexArr = [36, 37];
+            break;
+        case "MD":
+            indexArr = [38, 39];
+            break;
+        case "MA":
+            indexArr = [40, 41];
+            break;
+        case "MI":
+            indexArr = [42, 43];
+            break;
+        case "MN":
+            indexArr = [44, 45];
+            break;
+        case "MS":
+            indexArr = [46, 47];
+            break;
+        case "MO":
+            indexArr = [48, 49];
+            break;
+        case "MT":
+            indexArr = [50, 51];
+            break;
+        case "NE":
+            indexArr = [52, 53];
+            break;
+        case "NV":
+            indexArr = [54, 55];
+            break;
+        case "NH":
+            indexArr = [56, 57];
+            break;
+        case "NJ":
+            indexArr = [58, 59];
+            break;
+        case "NM":
+            indexArr = [60, 61];
+            break;
+        case "NY":
+            indexArr = [62, 63];
+            break;
+        case "NC":
+            indexArr = [64, 65];
+            break;
+        case "ND":
+            indexArr = [66, 67];
+            break;
+        case "OH":
+            indexArr = [68, 69];
+            break;
+        case "OK":
+            indexArr = [70, 71];
+            break;
+        case "OK":
+            indexArr = [72, 73];
+            break;
+        case "PA":
+            indexArr = [74, 75];
+            break;
+        case "RI":
+            indexArr = [76, 77];
+            break;
+        case "SC":
+            indexArr = [78, 79];
+            break;
+        case "SD":
+            indexArr = [80, 81];
+            break;
+        case "TN":
+            indexArr = [82, 83];
+            break;
+        case "TX":
+            indexArr = [84, 85];
+            break;
+        case "UT":
+            indexArr = [86, 87];
+            break;
+        case "VT":
+            indexArr = [88, 89];
+            break;
+        case "VA":
+            indexArr = [90, 91];
+            break;
+        case "WA":
+            indexArr = [92, 93];
+            break;
+        case "WV":
+            indexArr = [94, 95];
+            break;
+        case "WI":
+            indexArr = [96, 97];
+            break;
+        case "WY":
+            indexArr = [98, 99];
+            break;
+    }
+    formatCandidateInfo(indexArr);
 });
 
 ;(function ($, window, document, undefined) {

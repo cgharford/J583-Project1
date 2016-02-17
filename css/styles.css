@@ -50,7 +50,8 @@ p {
     padding: .25em 1em 0em 1em;
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
-    font-size: 20px;
+    font-size: 19px;
+    font-family: "Monaco";
 }
 
 .active-tab {
@@ -135,6 +136,7 @@ input:focus {
     border-top-right-radius: .5em;
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
+    overflow: auto;
 }
 
 #map {
