@@ -139,12 +139,6 @@ input:focus {
     overflow: auto;
 }
 
-#map {
-    width: 800%;
-    height: 500%;
-    margin-left: 5%;
-}
-
 tr:hover, tr.selected {
     background-color: #666666;
 }
@@ -270,7 +264,7 @@ img {
 
 
 /* Styles for responsive design */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 770px) {
     #content-container {
         padding: 1em 2em;
     }
@@ -293,9 +287,10 @@ img {
         top: 45px;
     }
 
-    #map {
-        width: 200%;
-        height: 100%;
-        margin-left: 5%;
+    .candidate-img {
+        width: 30%;
+        height: 30%;
+        float: left;
+        padding: 0em .5em .5em 0em;
     }
 }
