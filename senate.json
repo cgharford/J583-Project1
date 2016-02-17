@@ -31,6 +31,29 @@
 
                         ]
                 },
+				{
+                    "name": "Ron Crumpton",
+                    "party":"Democratic",
+                    "bio": "Crumpton originally started his career in landscaping, but decided to attend the University of Alabama at Birmingham when an injury prevented him from continuing in his current line of work. Since then, he has worked on legislation regarding patient care and the use of marijuana for medical and recreational purposes.",
+                    "gender": "M",
+                    "image": "img/candidates/Ron-Crumpton.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes gun control",
+                                "point2": "Supports farmers who want to cultivate hemp",
+                                "point3": "Upholds Roe v. Wade ruling"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://crumptonforalabama.com/",
+                                "url2": "https://ballotpedia.org/Ron_Crumpton"
+                            }
+
+                        ]
+                },
                 {
                     "name": "Marcus Bowman",
                     "party":"Republican",
@@ -143,29 +166,6 @@
                             }
 
                         ]
-                },
-                {
-                    "name": "Ron Crumpton",
-                    "party":"Democratic",
-                    "bio": "Crumpton originally started his career in landscaping, but decided to attend the University of Alabama at Birmingham when an injury prevented him from continuing in his current line of work. Since then, he has worked on legislation regarding patient care and the use of marijuana for medical and recreational purposes.",
-                    "gender": "M",
-                    "image": "img/candidates/Ron-Crumpton.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Opposes gun control",
-                                "point2": "Supports farmers who want to cultivate hemp",
-                                "point3": "Upholds Roe v. Wade ruling"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://crumptonforalabama.com/",
-                                "url2": "https://ballotpedia.org/Ron_Crumpton"
-                            }
-
-                        ]
                 }
 			]
 	},
@@ -209,29 +209,7 @@
 
                         ]
                 },
-                {
-                    "name": "Thomas Lamb",
-                    "party":"Republican",
-                    "bio": "Lamb resides in Anchorage, Alaska. He maintains a blog where he writes regularly and passionately about political issues that are significant to him.",
-                    "gender": "M",
-                    "image": "img/candidates/Thomas-Lamb.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Opposes Sarah Palin and her supporters",
-                                "point2": "Offended at Ellen DeGeneres's silence at a picture of a child stepping on a dog's back",
-                                "point3": "Rejects proposal to build gasline in Alaska"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://thomasalamb.blogspot.com/"
-                            }
-
-                        ]
-                },
-                {
+				{
                     "name": "Cean Stevens",
                     "party":"Libertarian",
                     "bio": "Lamb was born in San Bernardino, CA and is a business owner. She ran for House in 2012, but was unsuccessful. She resides in Anchorage, Alaska with her family. ",
@@ -250,6 +228,28 @@
                             {
                                 "url1": "https://ballotpedia.org/Cean_Stevens",
                                 "url2": "http://www.elections.alaska.gov/doc/oep/2014/cs/Cean_Stevens_HD19.pdf"
+                            }
+
+                        ]
+                },
+                {
+                    "name": "Thomas Lamb",
+                    "party":"Republican",
+                    "bio": "Lamb resides in Anchorage, Alaska. He maintains a blog where he writes regularly and passionately about political issues that are significant to him.",
+                    "gender": "M",
+                    "image": "img/candidates/Thomas-Lamb.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Opposes Sarah Palin and her supporters",
+                                "point2": "Offended at Ellen DeGeneres's silence at a picture of a child stepping on a dog's back",
+                                "point3": "Rejects proposal to build gasline in Alaska"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://thomasalamb.blogspot.com/"
                             }
 
                         ]
@@ -273,28 +273,6 @@
         "gender": "M",
 		"candidates":
 			[
-				{
-                    "name": "Lennie Clark",
-                    "party":"Democratic",
-                    "bio": "Clark served in the army and the Arizona National Guard. Now, he works as a music teacher and is a progressive activist.",
-                    "gender": "M",
-                    "image": "img/candidates/Lennie-Clark.png",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Supports free tuition in colleges",
-                                "point2": "Advocates paid family and medical leave for employees",
-                                "point3": "Promotes nationwide legalization of marijuana"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://www.lennie2016.com/"
-                            }
-
-                        ]
-                },
                 {
                     "name": "Ann Kirkpatrick",
                     "party":"Democratic",
@@ -335,6 +313,28 @@
                         [
                             {
                                 "url1": "http://www.mccain.senate.gov/"
+                            }
+
+                        ]
+                },
+				{
+                    "name": "Lennie Clark",
+                    "party":"Democratic",
+                    "bio": "Clark served in the army and the Arizona National Guard. Now, he works as a music teacher and is a progressive activist.",
+                    "gender": "M",
+                    "image": "img/candidates/Lennie-Clark.png",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports free tuition in colleges",
+                                "point2": "Advocates paid family and medical leave for employees",
+                                "point3": "Promotes nationwide legalization of marijuana"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.lennie2016.com/"
                             }
 
                         ]
@@ -471,28 +471,6 @@
                         ]
                 },
                 {
-                    "name": "Curtis Coleman",
-                    "party":"Republican",
-                    "bio": "Coleman attended Central Baptist College, Southern Arkansas University, and Southwestern Baptist Theological Seminary. He also has experience as a small business owner, having founded an international food safety company. Coleman retired in 2009 and is active in state and federal poliics.",
-                    "gender": "M",
-                    "image": "img/candidates/Curtis-Coleman.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Promises not to serve for more than 12 years",
-                                "point2": "Opposes amnesty to for illegal immigrants",
-                                "point3": "Supports Ted Cruz's flat tax plan"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://curtiscoleman.com/"
-                            }
-
-                        ]
-                },
-                {
                     "name": "Conner Eldridge",
                     "party":"Democratic",
                     "bio": "Eldridge was born in Fayetteville, Arkansas and attended Davidson College and the University of Arkansas. He began his career in law and started working as an attorney in 2004. Eldridge resides in Fayetteville with his wife and children.",
@@ -511,6 +489,28 @@
                             {
                                 "url1": "https://connerforarkansas.com",
                                 "url1": "https://en.wikipedia.org/wiki/Conner_Eldridge"
+                            }
+
+                        ]
+                },
+				{
+                    "name": "Curtis Coleman",
+                    "party":"Republican",
+                    "bio": "Coleman attended Central Baptist College, Southern Arkansas University, and Southwestern Baptist Theological Seminary. He also has experience as a small business owner, having founded an international food safety company. Coleman retired in 2009 and is active in state and federal poliics.",
+                    "gender": "M",
+                    "image": "img/candidates/Curtis-Coleman.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Promises not to serve for more than 12 years",
+                                "point2": "Opposes amnesty to for illegal immigrants",
+                                "point3": "Supports Ted Cruz's flat tax plan"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://curtiscoleman.com/"
                             }
 
                         ]
@@ -588,29 +588,6 @@
                         ]
                 },
                 {
-                    "name": "Loretta Sanchez",
-                    "party":"Democratic",
-                    "bio": "Sanchez attended Chapman University and received her MBA from American University. She began her political career in 1996 when she was elected for congress. Interestingly, Loretta and her sister, Linda, are the first two sisters to serve in congress simultaneously in the state of California.",
-                    "gender": "F",
-                    "image": "img/candidates/Loretta-Sanchez.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Dedicated to improving our homeland security",
-                                "point2": "Prioritizes job generation and economic growth",
-                                "point3": "Fights for labor rights"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://www.loretta.org/",
-                                "url2": "https://en.wikipedia.org/wiki/Loretta_Sanchez"
-                            }
-
-                        ]
-                },
-                {
                     "name": "Tom Del Beccaro",
                     "party":"Republican",
                     "bio": "Beccaro grew up in Chicago and attended UC Berkeley and the Santa Clara University School of Law. Besides his legal career in law, he has also been the chairman of the Contra Costa County Republican Party and the California Republican Party. He also is an author and his work has been featured on several famous poliical websites. Beccaro currently resides in the San Francisco Bay area and works as a business attorney and businessman.",
@@ -629,6 +606,29 @@
                             {
                                 "url1": "http://www.delbeccaroforsenate.com/",
                                 "url1": "https://en.wikipedia.org/wiki/Tom_Del_Beccaro"
+                            }
+
+                        ]
+                },
+				{
+                    "name": "Loretta Sanchez",
+                    "party":"Democratic",
+                    "bio": "Sanchez attended Chapman University and received her MBA from American University. She began her political career in 1996 when she was elected for congress. Interestingly, Loretta and her sister, Linda, are the first two sisters to serve in congress simultaneously in the state of California.",
+                    "gender": "F",
+                    "image": "img/candidates/Loretta-Sanchez.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Dedicated to improving our homeland security",
+                                "point2": "Prioritizes job generation and economic growth",
+                                "point3": "Fights for labor rights"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.loretta.org/",
+                                "url2": "https://en.wikipedia.org/wiki/Loretta_Sanchez"
                             }
 
                         ]
@@ -666,29 +666,6 @@
         "gender": "M",
 		"candidates":
 			[
-				{
-                    "name": "Michael Bennet",
-                    "party":"Democratic",
-                    "bio": "Bennet attended Wesleyan University and received his law degree from Yale Law School. He served as Chief of Staff to the mayor of Denver, then worked as Superintendent for the Denver Public Schools. He was elected as senator in 2009 and has been serving ever since.",
-                    "gender": "M",
-                    "image": "img/candidates/Michael-Bennet.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Supports the Patient Protection and Affordable Care Act ",
-                                "point2": "Advocate of finding alternative energy and the building of the Keystone XL pipeline",
-                                "point3": "Promoted bill that put spending caps on the government"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://www.bennet.senate.gov/",
-                                "url2": "https://en.wikipedia.org/wiki/Michael_Bennet"
-                            }
-
-                        ]
-                },
                 {
                     "name": "Robert Blaha",
                     "party":"Republican",
@@ -731,6 +708,29 @@
                             {
                                 "url1": "https://www.frazierforcolorado.com",
                                 "url1": "https://en.wikipedia.org/wiki/Ryan_Frazier"
+                            }
+
+                        ]
+                },
+				{
+                    "name": "Michael Bennet",
+                    "party":"Democratic",
+                    "bio": "Bennet attended Wesleyan University and received his law degree from Yale Law School. He served as Chief of Staff to the mayor of Denver, then worked as Superintendent for the Denver Public Schools. He was elected as senator in 2009 and has been serving ever since.",
+                    "gender": "M",
+                    "image": "img/candidates/Michael-Bennet.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the Patient Protection and Affordable Care Act ",
+                                "point2": "Advocate of finding alternative energy and the building of the Keystone XL pipeline",
+                                "point3": "Promoted bill that put spending caps on the government"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.bennet.senate.gov/",
+                                "url2": "https://en.wikipedia.org/wiki/Michael_Bennet"
                             }
 
                         ]
@@ -1018,6 +1018,28 @@
 
                         ]
                 },
+				{
+                    "name": "Patrick Murphy",
+                    "party":"Democratic",
+                    "bio": "Born in Miami, Murphy attended the University of Miami. He began his poliical career when he was elected to the House of Representatives in 2012. Interestingly, Murphy switched his party affilication from Republican to Democratic months before he announced his intentions to run for congress.",
+                    "gender": "M",
+                    "image": "img/candidates/Patrick-Murphy.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the pro-choice cause",
+                                "point2": "Fights for LGBT rights and same-sex marriage",
+                                "point3": "Promotes the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.murphyforflorida.com/",
+                                "url2": "https://en.wikipedia.org/wiki/Patrick_Murphy_(Florida_politician)"
+                            }
+                        ]
+                },
                 {
                     "name": "David Jolly",
                     "party":"Republican",
@@ -1060,6 +1082,27 @@
                             }
                         ]
                 },
+				{
+                    "name": "Alan Grayson",
+                    "party":"Democratic",
+                    "bio": "Grayson was born in the Bronx, NYC, and attended Harvard College and  Harvard Law School. He worked as a law clerk and then as an associate in contract law. Grayson began his political career in 2010 when he was elected to serve in the House of Representatives.",
+                    "gender": "M",
+                    "image": "img/candidates/Alan-Grayson.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports increased funding for stem cell research",
+                                "point2": "Opposes the wars in Iraq and Afghanistan",
+                                "point3": "Promotes the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://en.wikipedia.org/wiki/Alan_Grayson"
+                            }
+                        ]
+                },
                 {
                     "name": "Todd Wilcox",
                     "party":"Republican",
@@ -1078,49 +1121,6 @@
                         [
                             {
                                 "url1": "http://www.toddwilcox2016.com/"
-                            }
-                        ]
-                },
-                {
-                    "name": "Patrick Murphy",
-                    "party":"Democratic",
-                    "bio": "Born in Miami, Murphy attended the University of Miami. He began his poliical career when he was elected to the House of Representatives in 2012. Interestingly, Murphy switched his party affilication from Republican to Democratic months before he announced his intentions to run for congress.",
-                    "gender": "M",
-                    "image": "img/candidates/Patrick-Murphy.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Supports the pro-choice cause",
-                                "point2": "Fights for LGBT rights and same-sex marriage",
-                                "point3": "Promotes the Affordable Care Act"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://www.murphyforflorida.com/",
-                                "url2": "https://en.wikipedia.org/wiki/Patrick_Murphy_(Florida_politician)"
-                            }
-                        ]
-                },
-                {
-                    "name": "Alan Grayson",
-                    "party":"Democratic",
-                    "bio": "Grayson was born in the Bronx, NYC, and attended Harvard College and  Harvard Law School. He worked as a law clerk and then as an associate in contract law. Grayson began his political career in 2010 when he was elected to serve in the House of Representatives.",
-                    "gender": "M",
-                    "image": "img/candidates/Alan-Grayson.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Supports increased funding for stem cell research",
-                                "point2": "Opposes the wars in Iraq and Afghanistan",
-                                "point3": "Promotes the Affordable Care Act"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "https://en.wikipedia.org/wiki/Alan_Grayson"
                             }
                         ]
                 },
@@ -1378,6 +1378,28 @@
 
                         ]
                 },
+				{
+                    "name": "Tammy Duckworth",
+                    "party": "Democratic",
+                    "bio": "Duckworth was born in Bangkok, Thailand and attended the University of Hawaii and George Washington University. She was deployed in Iraq and lost both of her legs and the use of one of her arms when a grenade triggered an explosion in her helicopter. Since her return home, she has strived to support vereterans and began her political career by serving in the House of Representatives.",
+                    "gender": "F",
+                    "image": "img/candidates/Tammy-Duckworth.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports gun control",
+                                "point2": "Promotes the Serv Act",
+                                "point3": "Advocate for improving treatment of veterans"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://tammyduckworth.com/"
+                            }
+
+                        ]
+                },
                 {
                     "name": "James Marter",
                     "party": "Republican",
@@ -1396,28 +1418,6 @@
                         [
                             {
                                 "url1": "http://www.marter4senate.us/"
-                            }
-
-                        ]
-                },
-                {
-                    "name": "Tammy Duckworth",
-                    "party": "Democratic",
-                    "bio": "Duckworth was born in Bangkok, Thailand and attended the University of Hawaii and George Washington University. She was deployed in Iraq and lost both of her legs and the use of one of her arms when a grenade triggered an explosion in her helicopter. Since her return home, she has strived to support vereterans and began her political career by serving in the House of Representatives.",
-                    "gender": "F",
-                    "image": "img/candidates/Tammy-Duckworth.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Supports gun control",
-                                "point2": "Promotes the Serv Act",
-                                "point3": "Advocate for improving treatment of veterans"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://tammyduckworth.com/"
                             }
 
                         ]
@@ -1477,28 +1477,6 @@
         "gender": "M",
 		"candidates":
 			[
-				{
-                    "name": "Baron Hill",
-                    "party": "Democratic",
-                    "bio": "Hill attended Furman University and began his career in the insurance and real estate business. He served in the House of Representatives for 8 years. When he ran for senator in 1990, he walked the length of the state, meeting voters and campaigning. ",
-                    "gender": "M",
-                    "image": "img/candidates/Baron-Hill.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Voted for the No Child Left Behind Act",
-                                "point2": "Promotes the Blue Dog Coalition",
-                                "point3": "Advocates for the Affordable Care Act"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "https://en.wikipedia.org/wiki/Baron_Hill"
-                            }
-
-                        ]
-                },
                 {
                     "name": "Marlin Stutzman",
                     "party": "Republican",
@@ -1517,6 +1495,28 @@
                         [
                             {
                                 "url1": "http://www.marlinstutzman.com/"
+                            }
+
+                        ]
+                },
+				{
+                    "name": "Baron Hill",
+                    "party": "Democratic",
+                    "bio": "Hill attended Furman University and began his career in the insurance and real estate business. He served in the House of Representatives for 8 years. When he ran for senator in 1990, he walked the length of the state, meeting voters and campaigning. ",
+                    "gender": "M",
+                    "image": "img/candidates/Baron-Hill.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Voted for the No Child Left Behind Act",
+                                "point2": "Promotes the Blue Dog Coalition",
+                                "point3": "Advocates for the Affordable Care Act"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "https://en.wikipedia.org/wiki/Baron_Hill"
                             }
 
                         ]
@@ -1562,28 +1562,6 @@
         "gender": "M",
 		"candidates":
 			[
-				{
-                    "name": "Chuck Grassley",
-                    "party": "Republican",
-                    "bio": "Grassley was born in New Hartford, Iowa and attended the University of Northern Iowa and the University of Iowa. Before politics, he worked as a farmer, sheet metal shearer, and assembly line worker. He began serving in the House of Representatives in 1974 and was elected to Senate in 1980. ",
-                    "gender": "M",
-                    "image": "img/candidates/Chuck-Grassley.jpg",
-                    "platformPoints":
-                        [
-                            {
-                                "point1": "Supports the Violence Against Women Act",
-                                "point2": "Promotes community anti-drug coalitions and Drug Free Communities",
-                                "point3": "Advocates the Patriot Act for national security"
-                            }
-                        ],
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://www.grassley.senate.gov/"
-                            }
-
-                        ]
-                },
                 {
                     "name": "Rob Hogg",
                     "party": "Democratic",
@@ -1602,6 +1580,28 @@
                         [
                             {
                                 "url1": "http://www.robhogg.org/"
+                            }
+
+                        ]
+                },
+				{
+                    "name": "Chuck Grassley",
+                    "party": "Republican",
+                    "bio": "Grassley was born in New Hartford, Iowa and attended the University of Northern Iowa and the University of Iowa. Before politics, he worked as a farmer, sheet metal shearer, and assembly line worker. He began serving in the House of Representatives in 1974 and was elected to Senate in 1980. ",
+                    "gender": "M",
+                    "image": "img/candidates/Chuck-Grassley.jpg",
+                    "platformPoints":
+                        [
+                            {
+                                "point1": "Supports the Violence Against Women Act",
+                                "point2": "Promotes community anti-drug coalitions and Drug Free Communities",
+                                "point3": "Advocates the Patriot Act for national security"
+                            }
+                        ],
+                    "sources" :
+                        [
+                            {
+                                "url1": "http://www.grassley.senate.gov/"
                             }
 
                         ]
@@ -1764,6 +1764,11 @@
 
                         ]
                 },
+				{
+                    "name": "James Gould",
+                    "party": "Republican",
+                    "gender": "M"
+                },
                 {
                     "name": "Rory Houlihan",
                     "party": "Democratic",
@@ -1777,6 +1782,22 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Stephen Slaughter",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Ron Leach",
+                    "party": "Democratic",
+                    "gender": "M",
+                    "image": "img/candidates/Ron-Leach.jpg"
+                },
+				{
+                    "name": "Tom Recktenwald",
+                    "party": "Democratic",
+                    "gender": "M"
                 },
                 {
                     "name": "Jeff Kender",
@@ -1800,19 +1821,20 @@
 
                         ]
                 },
-                {
-                    "name": "Ron Leach",
+				{
+                    "name": "Rand Paul",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Grant Short",
                     "party": "Democratic",
-                    "bio": "",
-                    "gender": "M",
-                    "image": "img/candidates/Ron-Leach.jpg",
-                    "sources" :
-                        [
-                            {
-                                "url1": "http://www.crapo.senate.gov/"
-                            }
-
-                        ]
+                    "gender": "M"
+                },
+				{
+                    "name": "Sellus Wilder",
+                    "party": "Democratic",
+                    "gender": "M"
                 }
 			]
 	},
@@ -1825,6 +1847,16 @@
         "gender": "M",
         "candidates":
 			[
+				{
+                    "name": "Joseph Cao",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "John Fleming",
+                    "party": "Republican",
+                    "gender": "M"
+                },
 				{
                     "name": "Charles Boustany",
                     "party": "Republican",
@@ -1846,6 +1878,26 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Rob Maness",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Troy Hebert",
+                    "party": "Independent",
+                    "gender": "M"
+                },
+				{
+                    "name": "John Kennedy",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Caroline Fayard",
+                    "party": "Democratic",
+                    "gender": "F"
                 }
 			]
 	},
@@ -1904,6 +1956,121 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Freddie Donald Dickson Jr.",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Ralph Jaffe",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Theresa Scaldaferri",
+                    "party": "Democratic",
+                    "gender": "F"
+                },
+				{
+                    "name": "Anthony Seda",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Richard Shawver",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Kathy Szeliga",
+                    "party": "Republican",
+                    "gender": "F"
+                },
+				{
+                    "name": "Charles U. Smith",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Violet Staley",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Blaine Taylor",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Ed Tinus",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Chris Van Hollen",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Lih Young",
+                    "party": "Democratic",
+                    "gender": "F"
+                },
+				{
+                    "name": "Chris Chafee",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Sean Connor",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Richard Douglas",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "John R. Graziani",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Greg Holmes",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Joseph David Hooe",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Chrys Kefalas",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Mark McNicholas",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Lynn Richardson",
+                    "party": "Republican",
+                    "gender": "F"
+                },
+				{
+                    "name": "Dave Wallace",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Garry T. Yarrington",
+                    "party": "Republican",
+                    "gender": "M"
                 }
 			]
 	},
@@ -1997,6 +2164,16 @@
         "candidates":
 			[
 				{
+                    "name": "MD Rabbi Alam",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Christopher Batsche",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
                     "name": "Jason Kander",
                     "party": "Democratic",
                     "bio": "Kander began his career by serving in the Army National Guard and attended Georgetown University for a law degree while serving in Georgetown's ROTC battalion. After a military tour in Afghanistan, he taught at the Missouri National Guard's Officer Candidate School. In 2008, he was elected to the Missouri House of Representatives and then as the Missouri Secretary of State. ",
@@ -2018,6 +2195,16 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Roy Blunt",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Cori Bush",
+                    "party": "Democratic",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2084,6 +2271,11 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Joe Heck",
+                    "party": "Republican",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2134,6 +2326,11 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Kelly Ayotte",
+                    "party": "Republican",
+                    "gender": "F"
                 }
 			]
 	},
@@ -2242,6 +2439,41 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Deborah Ross",
+                    "party": "Democratic",
+                    "gender": "F"
+                },
+				{
+                    "name": "Richard Burr",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Larry Holmquist",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Kevin Griffin",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Paul Wright",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Chris Rey",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Ernest Reeves",
+                    "party": "Democratic",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2283,6 +2515,11 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Robert Marquette",
+                    "party": "Libertarian",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2332,6 +2569,26 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Rob Portmane",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "P.G. Sittenfeld",
+                    "party": "Democratic",
+                    "gender": "M"
+                },
+				{
+                    "name": "Don Elijah Eckhart",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Kelli Prather",
+                    "party": "Democratic",
+                    "gender": "F"
                 }
 			]
 	},
@@ -2408,6 +2665,26 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Mark Callahan",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Kevin Stine",
+                    "party": "Democratic",
+                    "gender": "F"
+                },
+				{
+                    "name": "Dan Laschober",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Faye Stewart",
+                    "party": "Republican",
+                    "gender": "F"
                 }
 			]
 	},
@@ -2458,6 +2735,26 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Pat Toomey",
+                    "party": "Republican",
+                    "gender": "M"
+                },
+				{
+                    "name": "Kathleen McGinty",
+                    "party": "Democratic",
+                    "gender": "F"
+                },
+				{
+                    "name": "Everett Stern",
+                    "party": "Republican",
+                    "gender": "F"
+                },
+				{
+                    "name": "John Fetterman",
+                    "party": "Democratic",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2515,6 +2812,11 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Tim Scott",
+                    "party": "Republican",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2630,6 +2932,11 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Jonathan Swinton",
+                    "party": "Democratic",
+                    "gender": "M"
                 }
 			]
 	},
@@ -2721,6 +3028,11 @@
                             }
 
                         ]
+                },
+				{
+                    "name": "Patty Murray",
+                    "party": "Democratic",
+                    "gender": "F"
                 }
 			]
 	},
@@ -2757,6 +3069,11 @@
         "gender": "M",
         "candidates":
 			[
+				{
+                    "name": "Ron Johnson ",
+                    "party": "Republican",
+                    "gender": "M"
+                },
 				{
                     "name": "Russ Feingold",
                     "party": "Democratic",
