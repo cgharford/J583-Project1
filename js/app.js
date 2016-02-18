@@ -10,7 +10,6 @@ var senators = [];
     store.products = [];
 
     $scope.showTab1 = false;
-    console.log(this.showTab1);
 
     // Get external json file via ajax
     $http.get('/senate.json').success(function(data){
@@ -53,7 +52,6 @@ var senators = [];
     };
 
     this.changeTab = function(tab){
-        console.log($scope.showTab1);
         if (tab == 1){
             document.getElementById("tab1").style.backgroundColor = "white";
             document.getElementById("tab1").style.border = "solid white";
@@ -71,14 +69,6 @@ var senators = [];
 
         $("#candidates").text("");
     }
-
-    $(window).resize(function() {
-        width = window.innerWidth;
-        if (width <= 847) {
-            $scope.showTab1 = false;
-        }
-    });
-
   }]);
 })();
 

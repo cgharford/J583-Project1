@@ -28,55 +28,99 @@
             more about the senators and candidates.
         </div>
         <div id="content-container" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 row" ng-controller="SenateCtrl as seats" id="SenateCtrl">
-            <a href=""><span ng-click="seats.changeTab(1)" ng-model="showTab1" class="active-tab tab" id="tab1">Table</span></a>
-            <a href=""><span ng-click="seats.changeTab(2)" ng-model="showTab2" class="inactive-tab tab" id="tab2">Map</span></a>
 
-            <div ng-hide="showTab1" class="content" >
-                <div class="container-1 row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 explanation">
-                        Click on the row to view the contested and uncontested seats.<br>
-                        Sort the table by clicking on the table headings.
+            <div class="hidden-xs">
+                <a href=""><span ng-click="seats.changeTab(1)" ng-model="showTab1" class="active-tab tab" id="tab1">Table</span></a>
+                <a href=""><span ng-click="seats.changeTab(2)" ng-model="showTab2" class="inactive-tab tab" id="tab2">Map</span></a>
+
+                <div ng-show="!showTab1" class="content" >
+                    <div class="container-1 row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 explanation">
+                            Click on the row to view the contested and uncontested seats.<br>
+                            Sort the table by clicking on the table headings.
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 box">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input ng-model="search" placeholder="Search" class="search box" />
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 box">
-                        <span class="icon"><i class="fa fa-search"></i></span>
-                        <input ng-model="search" placeholder="Search" class="search box" />
+                    <div id="table-container">
+                        <table class="table table-responsive" id="table">
+                            <thead>
+                                <tr>
+                                    <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
+                                    <th><a href="#" ng-click="seats.sort('State')">State</a></th>
+                                    <th><a href="#" ng-click="seats.sort('currentSenator')">Senator</a></th>
+                                    <th><a href="#" ng-click="seats.sort('party')">Party</a></th>
+                                    <th><a href="#" ng-click="seats.sort('contested')">Contested</a></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="product in seats.products | filter: search | orderBy: seats.sort:seats.direction"
+                                ng-class="product.party == 'Republican' ? 'republican-row': 'democratic-row'"
+                                ng-click="seats.setUpCandidatesGrid(product.id-1)">
+                                <a href="#candidates" class="candidate-link">
+                                    <td>{{product.id}}</td>
+                                    <td>{{product.State}}</td>
+                                    <td>{{product.currentSenator}}</td>
+                                    <td>{{product.party}}</td>
+                                    <td>{{product.contested}}</td>
+                                </a>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                </div>
+                <div ng-show="showTab1" class="content hidden-xs">
+                    <br>
+                    <div class="row explanation" id="map-explanation">
+                        Click on a state to view the senators and candidates by area.<br>
+                    </div>
+                    <div id="map-container">
+                        <div id="vmap" style="width: 600px; height: 400px;" class="map"></div>
                     </div>
                 </div>
-                <div id="table-container">
-                    <table class="table table-responsive" id="table">
-                        <thead>
-                            <tr>
-                                <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
-                                <th><a href="#" ng-click="seats.sort('State')">State</a></th>
-                                <th><a href="#" ng-click="seats.sort('currentSenator')">Senator</a></th>
-                                <th><a href="#" ng-click="seats.sort('party')">Party</a></th>
-                                <th><a href="#" ng-click="seats.sort('contested')">Contested</a></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr ng-repeat="product in seats.products | filter: search | orderBy: seats.sort:seats.direction"
-                            ng-class="product.party == 'Republican' ? 'republican-row': 'democratic-row'"
-                            ng-click="seats.setUpCandidatesGrid(product.id-1)">
-                            <a href="#candidates" class="candidate-link">
-                                <td>{{product.id}}</td>
-                                <td>{{product.State}}</td>
-                                <td>{{product.currentSenator}}</td>
-                                <td>{{product.party}}</td>
-                                <td>{{product.contested}}</td>
-                            </a>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <br>
             </div>
-            <div ng-show="showTab1" class="content hidden-xs">
-                <br>
-                <div class="row explanation" id="map-explanation">
-                    Click on a state to view the senators and candidates by area.<br>
-                </div>
-                <div id="map-container">
-                    <div id="vmap" style="width: 600px; height: 400px;" class="map"></div>
+            <div class="visible-xs">
+                <div class="content" >
+                    <div class="container-1 row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 explanation">
+                            Click on the row to view the contested and uncontested seats.<br>
+                            Sort the table by clicking on the table headings.
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 box">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input ng-model="search" placeholder="Search" class="search box" />
+                        </div>
+                    </div>
+                    <div id="table-container">
+                        <table class="table table-responsive" id="table">
+                            <thead>
+                                <tr>
+                                    <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
+                                    <th><a href="#" ng-click="seats.sort('State')">State</a></th>
+                                    <th><a href="#" ng-click="seats.sort('currentSenator')">Senator</a></th>
+                                    <th><a href="#" ng-click="seats.sort('party')">Party</a></th>
+                                    <th><a href="#" ng-click="seats.sort('contested')">Contested</a></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="product in seats.products | filter: search | orderBy: seats.sort:seats.direction"
+                                ng-class="product.party == 'Republican' ? 'republican-row': 'democratic-row'"
+                                ng-click="seats.setUpCandidatesGrid(product.id-1)">
+                                <a href="#candidates" class="candidate-link">
+                                    <td>{{product.id}}</td>
+                                    <td>{{product.State}}</td>
+                                    <td>{{product.currentSenator}}</td>
+                                    <td>{{product.party}}</td>
+                                    <td>{{product.contested}}</td>
+                                </a>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 container">
