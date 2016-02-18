@@ -1,0 +1,37 @@
+<div class="container-1 row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 explanation">
+        Click on the row to view the contested and uncontested seats.<br>
+        Sort the table by clicking on the table headings.
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 box">
+        <span class="icon"><i class="fa fa-search"></i></span>
+        <input ng-model="search" placeholder="Search" class="search box" />
+    </div>
+</div>
+<div id="table-container">
+    <table class="table table-responsive" id="table">
+        <thead>
+            <tr>
+                <th><a href="#" ng-click="seats.sort('id')">Seat No.</a></th>
+                <th><a href="#" ng-click="seats.sort('State')">State</a></th>
+                <th><a href="#" ng-click="seats.sort('currentSenator')">Senator</a></th>
+                <th><a href="#" ng-click="seats.sort('party')">Party</a></th>
+                <th><a href="#" ng-click="seats.sort('contested')">Contested</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="seat in seats.individualSeats | filter: search | orderBy: seats.sort:seats.direction"
+            ng-class="seat.party == 'Republican' ? 'republican-row': 'democratic-row'"
+            ng-click="seats.setUpCandidatesGrid(seat.id-1)">
+            <a href="#candidates" class="candidate-link">
+                <td>{{seat.id}}</td>
+                <td>{{seat.State}}</td>
+                <td>{{seat.currentSenator}}</td>
+                <td>{{seat.party}}</td>
+                <td>{{seat.contested}}</td>
+            </a>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>

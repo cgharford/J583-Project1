@@ -269,6 +269,30 @@ img {
     left: 22%;
 }
 
+.party-box {
+    width: 13px;
+    height: 13px;
+    margin:auto; display:
+    inline-block;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background: #FF0000
+}
+
+.republican-color {
+    background-color: #990000;
+}
+
+.democratic-color {
+    background-color: #004A80;
+}
+
+.other-color {
+    background-color: #4d4d4d;
+}
+
+
+
 
 @media screen and (max-width: 1200px) {
     .map {

@@ -5,15 +5,15 @@ var senators = [];
   var app = angular.module('senate', []);
 
   app.controller('SenateCtrl', [ '$scope', '$http', function($scope, $http){
-    var store = this;
+    var senate = this;
     this.sortReverse  = false;
-    store.products = [];
+    senate.individualSeats = [];
 
     $scope.showTab1 = false;
 
     // Get external json file via ajax
     $http.get('/senate.json').success(function(data){
-      store.products = data;
+      senate.individualSeats = data;
       senators = data;
     });
 
@@ -23,7 +23,7 @@ var senators = [];
     }
 
     this.sort = function(title) {
-        items = store.products;
+        items = senate.individualSeats;
         this.sortReverse = !this.sortReverse;
 
         var length = items.length;
@@ -174,6 +174,7 @@ resizeCandidates = function() {
     });
 }
 
+// Configures interactive map with appropriate colors and click function
 createMap = function() {
     jQuery('#vmap').vectorMap({
           map: 'usa_en',
@@ -395,6 +396,7 @@ createMap = function() {
     });
 }
 
+// Sets up the pinterest layout for all the candidates shown
 ;(function ($, window, document, undefined) {
     var pluginName = 'pinterest_grid',
         defaults = {
