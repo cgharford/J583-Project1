@@ -7,11 +7,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/jqvmap.css">
 
   <script type="text/javascript" src="js/angular.min.js"></script>
   <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="js/raphael.js"></script>
-  <script type="text/javascript" src="js/jquery.usmap.js"></script>
+  <script src="js/jquery.vmap.js"></script>
+  <script src="js/jquery.vmap.usa.js"></script>
+
 </head>
     <body ng-app="senate">
         <div class="row header">
@@ -25,8 +28,8 @@
             more about the senators and candidates.
         </div>
         <div id="content-container" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 row" ng-controller="SenateCtrl as seats" id="SenateCtrl">
-            <a href=""><span ng-click="showTab1=false" onclick="changeTab(1)" class="active-tab tab" id="tab1">Table</span></a>
-            <a href=""><span ng-click="showTab1=true" onclick="changeTab(2)" class="inactive-tab tab" id="tab2">Map</span></a>
+            <a href=""><span ng-click="seats.changeTab(1)" ng-model="showTab1" class="active-tab tab" id="tab1">Table</span></a>
+            <a href=""><span ng-click="seats.changeTab(2)" ng-model="showTab2" class="inactive-tab tab" id="tab2">Map</span></a>
 
             <div ng-hide="showTab1" class="content" >
                 <div class="container-1 row">
@@ -67,15 +70,13 @@
                 </div>
                 <br>
             </div>
-            <div ng-show="showTab1" class="content">
+            <div ng-show="showTab1" class="content hidden-xs">
                 <br>
                 <div class="row explanation" id="map-explanation">
                     Click on a state to view the senators and candidates by area.<br>
                 </div>
                 <div id="map-container">
-                    <div id="map" class="map" style="width: 500px; height: 500px;"></div>
-                    <!-- <svg id="map" class="map" viewbox="0 0 500 500" width="500" height="500" preserveAspectRatio='xMidYMin slice'></svg> -->
-                    <!-- <svg id="map" viewBox="0 0 60 55" preserveAspectRatio="xMidYMin slice" style="width: 100%; padding-bottom: 92%; height: 50px; overflow: visible"></svg> -->
+                    <div id="vmap" style="width: 600px; height: 400px;" class="map"></div>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 container">

@@ -265,20 +265,21 @@ img {
     text-align: center;
 }
 
-.svg-content {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
+.map {
+    left: 22%;
 }
 
-.svg-container {
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	padding-bottom: 100%;
-	vertical-align: middle;
-	overflow: hidden;
+
+@media screen and (max-width: 1200px) {
+    .map {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .map {
+        left: 5%;
+    }
 }
 
 /* Styles for responsive design */
@@ -316,5 +317,13 @@ img {
         height: 30%;
         float: left;
         padding: 0em .5em .5em 0em;
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .content {
+        border-top-left-radius: .5em;
     }
 }

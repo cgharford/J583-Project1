@@ -1,5 +1,4 @@
 var senators = [];
-var counter = 0;
 
 (function() {
 
@@ -9,6 +8,9 @@ var counter = 0;
     var store = this;
     this.sortReverse  = false;
     store.products = [];
+
+    $scope.showTab1 = false;
+    console.log(this.showTab1);
 
     // Get external json file via ajax
     $http.get('/senate.json').success(function(data){
@@ -49,26 +51,36 @@ var counter = 0;
     this.setUpCandidatesGrid = function(index) {
         formatCandidateInfo([index]);
     };
+
+    this.changeTab = function(tab){
+        console.log($scope.showTab1);
+        if (tab == 1){
+            document.getElementById("tab1").style.backgroundColor = "white";
+            document.getElementById("tab1").style.border = "solid white";
+            document.getElementById("tab2").style.backgroundColor = "#eee";
+            document.getElementById("tab2").style.border = "solid #eee";
+            $scope.showTab1 = false;
+        }
+        else {
+            document.getElementById("tab2").style.backgroundColor = "white";
+            document.getElementById("tab2").style.border = "solid white";
+            document.getElementById("tab1").style.backgroundColor = "#eee";
+            document.getElementById("tab1").style.border = "solid #eee";
+            $scope.showTab1 = true;
+        }
+
+        $("#candidates").text("");
+    }
+
+    $(window).resize(function() {
+        width = window.innerWidth;
+        if (width <= 847) {
+            $scope.showTab1 = false;
+        }
+    });
+
   }]);
 })();
-
-changeTab = function(tab){
-    if (tab == 1){
-        document.getElementById("tab1").style.backgroundColor = "white";
-        document.getElementById("tab1").style.border = "solid white";
-        document.getElementById("tab2").style.backgroundColor = "#eee";
-        document.getElementById("tab2").style.border = "solid #eee";
-
-    }
-    else {
-        document.getElementById("tab2").style.backgroundColor = "white";
-        document.getElementById("tab2").style.border = "solid white";
-        document.getElementById("tab1").style.backgroundColor = "#eee";
-        document.getElementById("tab1").style.border = "solid #eee";
-    }
-
-    $("#candidates").text("");
-}
 
 formatCandidateInfo = function(indexArr) {
     html = ""
@@ -155,18 +167,12 @@ createCandidates = function(index) {
 
 $(document).ready(function() {
     resizeCandidates();
-    resizeMap();
     createMap();
-    // turnMapOn();
 });
 
 $(window).resize(function() {
     resizeCandidates();
-    resizeMap();
-    createMap();
-    // turnMapOn();
 });
-
 
 resizeCandidates = function() {
     $('#pinBoot').pinterest_grid({
@@ -179,65 +185,70 @@ resizeCandidates = function() {
 }
 
 createMap = function() {
-    $('#map').usmap({
-        stateHoverStyles: {fill: '#ddd'},
-        stateSpecificStyles: {
-            'AL': {fill: '#990000'},
-            'AK': {fill: '#990000'},
-            'AZ': {fill: '#990000'},
-            'AR': {fill: '#990000'},
-            'CA': {fill: '#004A80'},
-            'CO': {fill: '#4d4d4d'},
-            'CT': {fill: '#004A80'},
-            'DE': {fill: '#004A80'},
-            'FL': {fill: '#4d4d4d'},
-            'GA': {fill: '#990000'},
-            'HI': {fill: '#004A80'},
-            'ID': {fill: '#990000'},
-            'IL': {fill: '#4d4d4d'},
-            'IN': {fill: '#4d4d4d'},
-            'IA': {fill: '#004A80'},
-            'KS': {fill: '#4d4d4d'},
-            'KY': {fill: '#004A80'},
-            'LA': {fill: '#004A80'},
-            'ME': {fill: '#4d4d4d'},
-            'MD': {fill: '#004A80'},
-            'MA': {fill: '#004A80'},
-            'MI': {fill: '#004A80'},
-            'MN': {fill: '#4d4d4d'},
-            'MS': {fill: '#990000'},
-            'MO': {fill: '#4d4d4d'},
-            'MT': {fill: '#4d4d4d'},
-            'NE': {fill: '#990000'},
-            'NV': {fill: '#4d4d4d'},
-            'NH': {fill: '#4d4d4d'},
-            'NJ': {fill: '#004A80'},
-            'NM': {fill: '#004A80'},
-            'NY': {fill: '#004A80'},
-            'NC': {fill: '#990000'},
-            'ND': {fill: '#4d4d4d'},
-            'OH': {fill: '#4d4d4d'},
-            'OK': {fill: '#990000'},
-            'OR': {fill: '#004A80'},
-            'PA': {fill: '#4d4d4d'},
-            'RI': {fill: '#004A80'},
-            'SC': {fill: '#990000'},
-            'SD': {fill: '#990000'},
-            'TN': {fill: '#990000'},
-            'TX': {fill: '#990000'},
-            'UT': {fill: '#990000'},
-            'VT': {fill: '#004A80'},
-            'VA': {fill: '#004A80'},
-            'WA': {fill: '#004A80'},
-            'WV': {fill: '#4d4d4d'},
-            'WI': {fill: '#4d4d4d'},
-            'WY': {fill: '#990000'}
-        },
-        click: function(event, data) {
-            console.log(data.name);
+    jQuery('#vmap').vectorMap({
+          map: 'usa_en',
+          backgroundColor: 'white',
+          showTooltip: true,
+          enableZoom: false,
+          hoverColor: '#ddd',
+          colors: {
+            al: '#990000',
+            ak: '#990000',
+            az: '#990000',
+            ar: '#990000',
+            ca: '#004A80',
+            co: '#4d4d4d',
+            ct: '#004A80',
+            de: '#004A80',
+            fl: '#4d4d4d',
+            ga: '#990000',
+            hi: '#004A80',
+            id: '#990000',
+            il: '#4d4d4d',
+            in: '#4d4d4d',
+            ia: '#004A80',
+            ks: '#4d4d4d',
+            ky: '#004A80',
+            la: '#004A80',
+            me: '#4d4d4d',
+            md: '#004A80',
+            ma: '#004A80',
+            mi: '#004A80',
+            mn: '#4d4d4d',
+            ms: '#990000',
+            mo: '#4d4d4d',
+            mt: '#4d4d4d',
+            ne: '#990000',
+            nv: '#4d4d4d',
+            nh: '#4d4d4d',
+            nj: '#004A80',
+            nm: '#004A80',
+            ny: '#004A80',
+            nc: '#990000',
+            nd: '#4d4d4d',
+            oh: '#4d4d4d',
+            ok: '#990000',
+            or: '#004A80',
+            pa: '#4d4d4d',
+            ri: '#004A80',
+            sc: '#990000',
+            sd: '#990000',
+            tn: '#990000',
+            tx: '#990000',
+            ut: '#990000',
+            vt: '#004A80',
+            va: '#004A80',
+            wa: '#004A80',
+            wv: '#4d4d4d',
+            wi: '#4d4d4d',
+            wy: '#990000'
+          },
+          onRegionClick: function(event, code, region){
+            event.preventDefault();
+            state = code.toUpperCase();
 
             indexArr = [];
-            switch(data.name) {
+            switch(state) {
                 case "AL":
                     indexArr = [0, 1];
                     break;
@@ -390,366 +401,9 @@ createMap = function() {
                     break;
             }
             formatCandidateInfo(indexArr);
-        }
+          }
     });
 }
-
-turnMapOn = function() {
-    $('#map').on('usmapclick', function(event, data) {
-        // console.log("test");
-        // console.log(data.name);
-        indexArr = [];
-        switch(data.name) {
-            case "AL":
-                indexArr = [0, 1];
-                break;
-            case "AK":
-                indexArr = [2, 3];
-                break;
-            case "AZ":
-                indexArr = [4, 5];
-                break;
-            case "AR":
-                indexArr = [6, 7];
-                break;
-            case "CA":
-                indexArr = [8, 9];
-                break;
-            case "CO":
-                indexArr = [10, 11];
-                break;
-            case "CT":
-                indexArr = [12, 13];
-                break;
-            case "DE":
-                indexArr = [14, 15];
-                break;
-            case "FL":
-                indexArr = [16, 17];
-                break;
-            case "GA":
-                indexArr = [18, 19];
-                break;
-            case "HI":
-                indexArr = [20, 21];
-                break;
-            case "ID":
-                indexArr = [22, 23];
-                break;
-            case "IL":
-                indexArr = [24, 25];
-                break;
-            case "IN":
-                indexArr = [26, 27];
-                break;
-            case "IA":
-                indexArr = [28, 29];
-                break;
-            case "KS":
-                indexArr = [30, 31];
-                break;
-            case "KY":
-                indexArr = [32, 33];
-                break;
-            case "LA":
-                indexArr = [34, 35];
-                break;
-            case "ME":
-                indexArr = [36, 37];
-                break;
-            case "MD":
-                indexArr = [38, 39];
-                break;
-            case "MA":
-                indexArr = [40, 41];
-                break;
-            case "MI":
-                indexArr = [42, 43];
-                break;
-            case "MN":
-                indexArr = [44, 45];
-                break;
-            case "MS":
-                indexArr = [46, 47];
-                break;
-            case "MO":
-                indexArr = [48, 49];
-                break;
-            case "MT":
-                indexArr = [50, 51];
-                break;
-            case "NE":
-                indexArr = [52, 53];
-                break;
-            case "NV":
-                indexArr = [54, 55];
-                break;
-            case "NH":
-                indexArr = [56, 57];
-                break;
-            case "NJ":
-                indexArr = [58, 59];
-                break;
-            case "NM":
-                indexArr = [60, 61];
-                break;
-            case "NY":
-                indexArr = [62, 63];
-                break;
-            case "NC":
-                indexArr = [64, 65];
-                break;
-            case "ND":
-                indexArr = [66, 67];
-                break;
-            case "OH":
-                indexArr = [68, 69];
-                break;
-            case "OK":
-                indexArr = [70, 71];
-                break;
-            case "OR":
-                indexArr = [72, 73];
-                break;
-            case "PA":
-                indexArr = [74, 75];
-                break;
-            case "RI":
-                indexArr = [76, 77];
-                break;
-            case "SC":
-                indexArr = [78, 79];
-                break;
-            case "SD":
-                indexArr = [80, 81];
-                break;
-            case "TN":
-                indexArr = [82, 83];
-                break;
-            case "TX":
-                indexArr = [84, 85];
-                break;
-            case "UT":
-                indexArr = [86, 87];
-                break;
-            case "VT":
-                indexArr = [88, 89];
-                break;
-            case "VA":
-                indexArr = [90, 91];
-                break;
-            case "WA":
-                indexArr = [92, 93];
-                break;
-            case "WV":
-                indexArr = [94, 95];
-                break;
-            case "WI":
-                indexArr = [96, 97];
-                break;
-            case "WY":
-                indexArr = [98, 99];
-                break;
-        }
-        formatCandidateInfo(indexArr);
-    });
-}
-
-resizeMap = function() {
-    counter++;
-    console.log(counter);
-    var width = window.innerWidth;
-
-    if (width < 300) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 250px; height: 100px;'></div>" );
-    }
-    else if (width < 400 && width > 300) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 350px; height: 2000px;'></div>" );
-    }
-    else if (width < 500 && width > 400) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 400px; height: 200px;'></div>" );
-    }
-    else if (width < 600 && width > 500) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 500px; height: 250px;'></div>" );
-    }
-    else if (width < 700 && width > 600) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 550px; height: 250px;'></div>" );
-    }
-    else if (width < 800 && width > 700) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 600px; height: 300px;'></div>" );
-    }
-    else if (width < 900 && width > 800) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 700px; height: 450px;'></div>" );
-    }
-    else if (width < 1000 && width > 900) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 800px; height: 400px;'></div>" );
-    }
-    else if (width < 1100 && width > 1000) {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 900px; height: 450px;'></div>" );
-    }
-    else {
-        $( "div.map" ).replaceWith( "<div id='map' class='map' style='width: 1000px; height: 1000px;'></div>" );
-    }
-}
-
-$('#map').on('usmapclick', function(event, data) {
-    console.log("test");
-    console.log(data.name);
-    indexArr = [];
-    switch(data.name) {
-        case "AL":
-            indexArr = [0, 1];
-            break;
-        case "AK":
-            indexArr = [2, 3];
-            break;
-        case "AZ":
-            indexArr = [4, 5];
-            break;
-        case "AR":
-            indexArr = [6, 7];
-            break;
-        case "CA":
-            indexArr = [8, 9];
-            break;
-        case "CO":
-            indexArr = [10, 11];
-            break;
-        case "CT":
-            indexArr = [12, 13];
-            break;
-        case "DE":
-            indexArr = [14, 15];
-            break;
-        case "FL":
-            indexArr = [16, 17];
-            break;
-        case "GA":
-            indexArr = [18, 19];
-            break;
-        case "HI":
-            indexArr = [20, 21];
-            break;
-        case "ID":
-            indexArr = [22, 23];
-            break;
-        case "IL":
-            indexArr = [24, 25];
-            break;
-        case "IN":
-            indexArr = [26, 27];
-            break;
-        case "IA":
-            indexArr = [28, 29];
-            break;
-        case "KS":
-            indexArr = [30, 31];
-            break;
-        case "KY":
-            indexArr = [32, 33];
-            break;
-        case "LA":
-            indexArr = [34, 35];
-            break;
-        case "ME":
-            indexArr = [36, 37];
-            break;
-        case "MD":
-            indexArr = [38, 39];
-            break;
-        case "MA":
-            indexArr = [40, 41];
-            break;
-        case "MI":
-            indexArr = [42, 43];
-            break;
-        case "MN":
-            indexArr = [44, 45];
-            break;
-        case "MS":
-            indexArr = [46, 47];
-            break;
-        case "MO":
-            indexArr = [48, 49];
-            break;
-        case "MT":
-            indexArr = [50, 51];
-            break;
-        case "NE":
-            indexArr = [52, 53];
-            break;
-        case "NV":
-            indexArr = [54, 55];
-            break;
-        case "NH":
-            indexArr = [56, 57];
-            break;
-        case "NJ":
-            indexArr = [58, 59];
-            break;
-        case "NM":
-            indexArr = [60, 61];
-            break;
-        case "NY":
-            indexArr = [62, 63];
-            break;
-        case "NC":
-            indexArr = [64, 65];
-            break;
-        case "ND":
-            indexArr = [66, 67];
-            break;
-        case "OH":
-            indexArr = [68, 69];
-            break;
-        case "OK":
-            indexArr = [70, 71];
-            break;
-        case "OR":
-            indexArr = [72, 73];
-            break;
-        case "PA":
-            indexArr = [74, 75];
-            break;
-        case "RI":
-            indexArr = [76, 77];
-            break;
-        case "SC":
-            indexArr = [78, 79];
-            break;
-        case "SD":
-            indexArr = [80, 81];
-            break;
-        case "TN":
-            indexArr = [82, 83];
-            break;
-        case "TX":
-            indexArr = [84, 85];
-            break;
-        case "UT":
-            indexArr = [86, 87];
-            break;
-        case "VT":
-            indexArr = [88, 89];
-            break;
-        case "VA":
-            indexArr = [90, 91];
-            break;
-        case "WA":
-            indexArr = [92, 93];
-            break;
-        case "WV":
-            indexArr = [94, 95];
-            break;
-        case "WI":
-            indexArr = [96, 97];
-            break;
-        case "WY":
-            indexArr = [98, 99];
-            break;
-    }
-    formatCandidateInfo(indexArr);
-});
 
 ;(function ($, window, document, undefined) {
     var pluginName = 'pinterest_grid',
