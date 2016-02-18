@@ -1,3 +1,4 @@
+/* General styles for documemt */
 body {
     font-size: 12px;
     background-color: #ddd;
@@ -7,6 +8,7 @@ p {
     font-size: 12px;
 }
 
+/* Custom header styles */
 .header {
     background-color: #004A80;
 }
@@ -46,6 +48,7 @@ p {
     border-bottom-right-radius: .5em;
 }
 
+/* Custom styles for tab */
 .tab {
     padding: .25em 1em 0em 1em;
     border-top-left-radius: .5em;
@@ -65,7 +68,6 @@ p {
 }
 
 .explanation {
-    /*vertical-align: text-top;*/
     font-size: 15px;
 }
 
@@ -73,14 +75,15 @@ p {
     float: right;
 }
 
-.container-1{
+/* Custom styles for input box */
+.input-container{
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
     padding: 2em 0em;
 }
 
-.container-1 input.search{
+.input-container input.search{
     background: #eee;
     border: none;
     font-size: 10pt;
@@ -96,23 +99,23 @@ p {
     float: right;
 }
 
-.container-1 input.search::-webkit-input-placeholder {
+.input-container input.search::-webkit-input-placeholder {
     color: #65737e;
 }
 
-.container-1 input.search:-moz-placeholder { /* Firefox 18- */
+.input-container input.search:-moz-placeholder { /* Firefox 18- */
     color: #65737e;
 }
 
-.container-1 input.search::-moz-placeholder {  /* Firefox 19+ */
+.input-container input.search::-moz-placeholder {  /* Firefox 19+ */
     color: #65737e;
 }
 
-.container-1 input.search:-ms-input-placeholder {
+.input-container input.search:-ms-input-placeholder {
     color: #65737e;
 }
 
-.container-1 .icon{
+.input-container .icon{
     position: absolute;
     top: -7px;
     right: 185px;
@@ -139,6 +142,7 @@ input:focus {
     overflow: auto;
 }
 
+/* Custom styles for seats table*/
 #table-container {
     overflow:scroll;
     height:200px;
@@ -154,14 +158,12 @@ tr:hover, tr.selected {
 }
 
 .republican-row {
-    /*background-color: #fce9e8; Lighter color */
     background-color: #990000;
     border: solid white;
 }
 
 .democratic-row {
     border: solid white;
-    /*background-color: #e6f4ff; Lighter color */
     background-color: #004A80;
 }
 
@@ -175,6 +177,7 @@ A:visited {text-decoration: none; color: black;}
 A:hover {text-decoration: none; color: black;}
 A:active {text-decoration: none; color: black;}
 
+/* Custom styles for candidate information displayed */
 .candidate-box {
     border: solid 2px #C21E15;
     border-radius: .5em;
@@ -261,6 +264,7 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+/* Custom map styles */
 #map-explanation {
     text-align: center;
 }
@@ -291,22 +295,19 @@ img {
     background-color: #4d4d4d;
 }
 
-
-
-
+/* Resize map when screen size changes */
 @media screen and (max-width: 1200px) {
     .map {
         left: 15%;
     }
 }
-
 @media screen and (max-width: 900px) {
     .map {
         left: 5%;
     }
 }
 
-/* Styles for responsive design */
+/* Styles for mobile screen size */
 @media screen and (max-width: 770px) {
     #content-container {
         padding: 1em 2em;
@@ -326,7 +327,7 @@ img {
         padding: 1em 1em 1em 1em;
     }
 
-    .container-1 .icon {
+    .input-container .icon {
         top: 45px;
     }
 

@@ -17,6 +17,7 @@
 
 </head>
     <body ng-app="senate">
+        <!--Page header and introduction for user-->
         <div class="row header">
             <div class="row header-stripe"></div>
             <h1 id="header-title">US Senate Dashboard</h1>
@@ -28,14 +29,17 @@
             more about the senators and candidates.
         </div>
         <div id="content-container" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 row" ng-controller="SenateCtrl as seats" id="SenateCtrl">
-
+            <!--Hide both tab pages on on mobile screen size-->
             <div class="hidden-xs">
+                <!--Tabs to change betweem table and map pages-->
                 <a href=""><span ng-click="seats.changeTab(1)" ng-model="showTab1" class="active-tab tab" id="tab1">Table</span></a>
                 <a href=""><span ng-click="seats.changeTab(2)" ng-model="showTab2" class="inactive-tab tab" id="tab2">Map</span></a>
 
+                <!--On the first tab, just show the table-->
                 <div ng-show="!showTab1" class="content" >
                     <div ng-include="'table.html'"></div>
                 </div>
+                <!--On the second tab, just show the map-->
                 <div ng-show="showTab1" class="content hidden-xs">
                     <br>
                     <div class="row explanation" id="map-explanation">
@@ -47,20 +51,24 @@
                         <span class="party-box other-color"></span>
                         <span>Both parties &nbsp;</span>
                     </div>
+                    <!--Interactive map plugin-->
                     <div id="map-container">
                         <div id="vmap" style="width: 600px; height: 400px;" class="map"></div>
                     </div>
                 </div>
             </div>
+            <!--Only show the table on mobile screen size-->
             <div class="visible-xs">
                 <div class="content" >
                     <div ng-include="'table.html'"></div>
                 </div>
             </div>
+            <!--Candidates layout at the bottom of the screen-->
             <div class="col-lg-12 col-md-12 col-sm-12 row container">
                 <div id="candidates"></div>
             </div>
         </div>
+        <!--Custom javascript file must be loaded after rest of html-->
         <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

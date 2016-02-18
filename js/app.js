@@ -1,14 +1,13 @@
 var senators = [];
 
 (function() {
-
   var app = angular.module('senate', []);
 
+  // Controller for binding angular and html
   app.controller('SenateCtrl', [ '$scope', '$http', function($scope, $http){
     var senate = this;
     this.sortReverse  = false;
     senate.individualSeats = [];
-
     $scope.showTab1 = false;
 
     // Get external json file via ajax
@@ -22,6 +21,7 @@ var senators = [];
         $("child" + index).show();
     }
 
+    // Sort array when user clicks on table headings
     this.sort = function(title) {
         items = senate.individualSeats;
         this.sortReverse = !this.sortReverse;
@@ -51,6 +51,7 @@ var senators = [];
         formatCandidateInfo([index]);
     };
 
+    // When user clicks on new tab, change tab styles and show different html
     this.changeTab = function(tab){
         if (tab == 1){
             document.getElementById("tab1").style.backgroundColor = "white";
@@ -66,30 +67,27 @@ var senators = [];
             document.getElementById("tab1").style.border = "solid #eee";
             $scope.showTab1 = true;
         }
-
+        // Clear out candidate layout when changing tabs
         $("#candidates").text("");
     }
   }]);
 })();
 
+// Builds html for candidate info and inserts into page
 formatCandidateInfo = function(indexArr) {
     html = ""
     html += '<section id="pinBoot">';
+    // For each index in the json array, format an individual candidate box
     $.each(indexArr, function(i, index){
         html += createCandidates(index);
     })
     html += "</section>"
 
+    // Insert into the html and reconfigure candidate layout
     $("#candidates").text("");
     $("#candidates").append(html);
 
-    $('#pinBoot').pinterest_grid({
-       no_columns: 4,
-       padding_x: 10,
-       padding_y: 10,
-       margin_bottom: 50,
-       single_column_breakpoint: 700
-   });
+    resizeCandidates();
 }
 
 createCandidates = function(index) {
@@ -155,15 +153,18 @@ createCandidates = function(index) {
     return html;
 }
 
+// Set up the candidates layout and map when the document renders
 $(document).ready(function() {
     resizeCandidates();
     createMap();
 });
 
+// When the screen size changes, resize the candidates layout
 $(window).resize(function() {
     resizeCandidates();
 });
 
+// Reconfigures candidates layout for responsiveness
 resizeCandidates = function() {
     $('#pinBoot').pinterest_grid({
         no_columns: 4,
