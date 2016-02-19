@@ -145,7 +145,7 @@ input:focus {
 /* Custom styles for seats table*/
 #table-container {
     overflow:scroll;
-    height:200px;
+    height:300px;
 }
 
 #table {

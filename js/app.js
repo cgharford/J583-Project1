@@ -22,7 +22,9 @@ var senators = [];
     }
 
     // Sort array when user clicks on table headings
+    counter = 0;
     this.sort = function(title) {
+        counter ++;
         items = senate.individualSeats;
         this.sortReverse = !this.sortReverse;
 
@@ -46,6 +48,7 @@ var senators = [];
             }
           }
           senators = items;
+          senate.individualSeats = items;
     };
 
     // When row is clicked, formatted candidate information appears
@@ -94,7 +97,16 @@ formatCandidateInfo = function(indexArr) {
 
 createCandidates = function(index) {
     html = "";
-    element = senators[index];
+    correctIndex = 0;
+
+    for (i = 0; i < senators.length; i++){
+        if (senators[i].id == index+1) {
+            correctIndex = i;
+            console.log("index: " + i)
+            break;
+        }
+    }
+    element = senators[correctIndex];
 
     // First make a box for the senator himself
     if (element.contested == "False") {

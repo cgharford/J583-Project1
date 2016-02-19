@@ -20,7 +20,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="seat in seats.individualSeats | filter: search | orderBy: seats.sort:seats.direction"
+            <tr ng-repeat="seat in seats.individualSeats | filter: search"
             ng-class="seat.party == 'Republican' ? 'republican-row': 'democratic-row'"
             ng-click="seats.setUpCandidatesGrid(seat.id-1)">
             <a href="#candidates" class="candidate-link">
