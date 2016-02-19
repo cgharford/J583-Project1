@@ -11,7 +11,7 @@ var senators = [];
     $scope.showTab1 = false;
 
     // Get external json file via ajax
-    $http.get('/senate.json').success(function(data){
+    $http.get('senate.json').success(function(data){
       senate.individualSeats = data;
       senators = data;
     });
