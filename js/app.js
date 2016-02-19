@@ -47,6 +47,8 @@ var senators = [];
           }
           senators = items;
     };
+
+    // When row is clicked, formatted candidate information appears
     this.setUpCandidatesGrid = function(index) {
         formatCandidateInfo([index]);
     };
